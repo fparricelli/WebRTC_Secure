@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Chat</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="css/index_chat.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="bodyID">
+<br>
+<div align="center"> 
+<input type ="text" id ="currentUserInput"/> 
+<button id = "logout">Logout</button>
+</div> 
+
+<br>
+
+<div align="center" id=currentUser></div>
+
+
+<br>
+
+<div id="contactsTable" align="center">
+</div>
+
+<br>
+<br>
+
+
+
+      <div id = "callPage" class = "call-page container">
+		
+		<div class = "row text-center form-group"> 
+            <div class = "col-md-12"> 
+            <p id="textTitle" align="center"><b>Text Chat</b></p>  
+            </div> 
+         </div>         
+          		
+         <div class = "row"> 
+            <div class = "col-md-4 col-md-offset-4"> 
+               <div class = "panel panel-primary"> 
+                  <div id = "chatarea" class = "panel-body text-left"></div> 
+               </div> 
+            </div> 
+         </div>
+			
+         <div class = "row text-center form-group"> 
+            <div class = "col-md-12"> 
+            <br>
+               <input id = "msgInput" type = "text" 
+                  placeholder = "message" /> 
+               <button id = "sendMsgBtn" class = "btn-success btn">Send</button> 
+               <button id = "closeChatBtn" class = "btn-danger btn">Close Chat</button> 
+              </div> 
+         </div> 
+		 
+			
+      </div> 
+      
+      
+      <script src="client.js"></script>
+      <script src="xml2json.js"></script>
+
+</body>
+</html>

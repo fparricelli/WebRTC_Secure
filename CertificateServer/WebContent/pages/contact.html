@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Contacts</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+<br>
+<br>
+
+<table id="contact" class="tg">
+  <tr>
+    <td class="tg-yw4l" align="center"><button id = "contactAdminBtn" class = "btn-success btn">Contatta Amministratore</button></td>
+  </tr>
+  <tr>
+  <td class="tg-yw4l" align="center"><button id = "contactTechnicianBtn" class = "btn-success btn">Contatta Tecnico</button></td>
+  </tr>
+  <tr>
+  <td class="tg-yw4l" align="center"><button id = "contactUserBtn" class = "btn-success btn">Contatta Utente</button></td>
+  </tr>
+</table>
+
+<br>
+<br>
+
+<div align="center"> 
+Utente Selezionato:
+<input type ="text" id ="currentUserInput"/> 
+</div> 
+
+<br>
+
+<div align="center">
+Ruolo:
+<input type ="text" id ="currentRole"/> 
+</div>
+
+<div id="btnDIV" align="center">
+<button id = "logoutBtn">Logout</button>
+</div>
+
+
+
+
+<script src="contact.js"></script>
+<script src="xml2json.js"></script>
+
+</body>
+</html>

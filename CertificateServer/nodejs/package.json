@@ -1,0 +1,13 @@
+{
+   "name": "webrtc-simplechat",
+   "version": "0.1.0",
+   "description": "webrtc-textchat",
+   "author": "Aldo Strofaldi",
+   "license": "BSD-2-Clause",
+   "dependencies": {
+      "bootstrap": "^4.1.1",
+      "jquery-xml2json": "0.0.8",
+      "ws": "^5.2.0",
+      "xmlhttprequest": "^1.8.0"
+   }
+}

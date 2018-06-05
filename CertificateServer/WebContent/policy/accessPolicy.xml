@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns="urn:oasis:names:tc:xacml:1.0:policy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	PolicyId="accessPolicy"
+	RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:permit-overrides">
+
+	<Description>Questa Policy si applica a tutte le richieste che vengono
+		effettuate per il contenuto della cartella contact-lists.
+	</Description>
+
+
+
+	<Target>
+
+		<Subjects>
+			<AnySubject />
+		</Subjects>
+
+		<Resources>
+			<ResourceMatch
+				MatchId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match">
+				<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/.*
+				</AttributeValue>
+				<ResourceAttributeDesignator
+					DataType="http://www.w3.org/2001/XMLSchema#string" AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id"/>
+			</ResourceMatch>
+		</Resources>
+
+		<Actions>
+			<AnyAction />
+		</Actions>
+
+	</Target>
+
+
+	
+	<Rule RuleId="AdminAccess" Effect="Permit">
+
+		<Target>
+
+			<Subjects>
+				<AnySubject />
+			</Subjects>
+
+			<Resources>
+			 <AnyResource />
+			</Resources>
+
+			<Actions>
+				<AnyAction />
+			</Actions>
+
+		</Target>
+		
+		<Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only">
+					<SubjectAttributeDesignator
+						DataType="http://www.w3.org/2001/XMLSchema#string" AttributeId="ruolo"/>
+				</Apply>
+				<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">admin</AttributeValue>
+			</Apply>
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:or">
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/admins/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/utenti/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/tecnici/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+			
+			</Apply>
+
+		</Condition>
+		
+	</Rule>
+	
+	
+		<Rule RuleId="TecnicoAccess" Effect="Permit">
+
+		<Target>
+
+			<Subjects>
+				<AnySubject />
+			</Subjects>
+
+			<Resources>
+			 <AnyResource />
+			</Resources>
+
+			<Actions>
+				<AnyAction />
+			</Actions>
+
+		</Target>
+		
+		<Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only">
+					<SubjectAttributeDesignator
+						DataType="http://www.w3.org/2001/XMLSchema#string" AttributeId="ruolo"/>
+				</Apply>
+				<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">tecnico</AttributeValue>
+			</Apply>
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:or">
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/utenti/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/tecnici/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+			
+			</Apply>
+
+		</Condition>
+		
+	</Rule>
+	
+	
+	<Rule RuleId="UtenteAccess" Effect="Permit">
+
+		<Target>
+
+			<Subjects>
+				<AnySubject />
+			</Subjects>
+
+			<Resources>
+			 <AnyResource />
+			</Resources>
+
+			<Actions>
+				<AnyAction />
+			</Actions>
+
+		</Target>
+		
+		<Condition FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-one-and-only">
+					<SubjectAttributeDesignator
+						DataType="http://www.w3.org/2001/XMLSchema#string" AttributeId="ruolo"/>
+				</Apply>
+				<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">utente</AttributeValue>
+			</Apply>
+
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:or">
+				
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of">
+						<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:regexp-string-match"/>
+						<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">https://localhost:8443/CertificateServer/contact-lists/tecnici/.*</AttributeValue>
+						<ResourceAttributeDesignator AttributeId="urn:oasis:names:tc:xacml:1.0:resource:resource-id" DataType="http://www.w3.org/2001/XMLSchema#string"/>
+				</Apply>
+			
+			</Apply>
+
+		</Condition>
+		
+	</Rule>
+	
+	<!-- A final Rule that always Denies -->
+	<Rule RuleId="FinalRule" Effect="Deny" />
+
+</Policy>

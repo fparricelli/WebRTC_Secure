@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ContactList xmlns:ns2="it.sm.ContactList">
+	<Contact>
+		<username>donny</username>
+		<Name>Donald</Name>
+		<Surname>Duck</Surname>
+		<Telephone>12011</Telephone>
+	</Contact>
+	<Contact>
+		<username>mick</username>
+		<Name>Mickey</Name>
+		<Surname>Mouse</Surname>
+		<Telephone>10450</Telephone>
+	</Contact>
+</ContactList>

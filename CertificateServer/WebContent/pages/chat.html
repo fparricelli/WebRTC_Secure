@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Secure Messaging</title>
+ <!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">   
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/chat.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+    <div class="container">
+		<div class="containerTop">
+			<div class="button-logout-container">
+				<button class="button-logout" id="logout_button">
+					LogOut
+				</button>
+			</div>
+			<span class="contactName"></span>
+			<span class="contactRole"></span>
+		</div>
+        <div class="left">
+            <div class="top">
+                <span><br>Select a contact from the list to start chatting:</span>
+				
+            </div>
+            <ul class="people" id="list">
+            </ul>
+        </div>
+        <div class="right" id = "right_panel">
+            <div class="top">
+				<div class="button-close-container">
+					<button class="button-close" id="close_button">
+						Close
+					</button>
+				</div>
+				<span>To: <span class="name" id="chat_to_top"></span> <span class="role_chat" id="chat_to_top_role"></span>
+				</span>
+				
+			</div>
+			
+            <div class="chat active-chat" id="chat_div">
+                <div class="conversation-start" id="conv_start">
+                    <span id="starting_chat"></span>
+                </div>         
+			</div>
+			<div class="down">
+            <div class="write">
+				<a class="write-link smiley"></a>
+                <input type="text" id="inputText"/>
+                <!--<a href="javascript:;" id="send_button" class="write-link send"></a>-->
+					<button class="button-send" id="send_button">
+					</button>
+					
+            </div>
+		</div>
+        </div>
+    </div>
+</div>
+
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+
+
+<!--===============================================================================================-->
+	<script src="chat.js"></script>
+          <script src="xml2json.js"></script>
+    
+  </body>
+</html>
