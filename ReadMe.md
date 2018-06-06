@@ -1,4 +1,4 @@
-# Secure Messaging <img src="./CertificateServer/WebContent/pages/images/icon.png" width="10%">
+# Secure Messaging
 
 L'obiettivo del progetto è lo sviluppo di una applicazione con interfaccia web-based di messaggistica point-to-point mediante ausilio di WebRTC, con funzioni di autenticazione gestite su un server Apache Tomcat attraverso servlets Java SSL, con meccanismo a due fattori per il login di utenti da dispositivi non noti, gestione di policy di autorizzazione role-based tra gli utenti, con la persistenza delle informazioni gestita attraverso un database-server MySQL, anch'esso configurato con SSL.
 
@@ -6,7 +6,7 @@ Le tecnologie/librerie utilizzate sono elencate di seguito:
 
 * **CSS**, **HTML** per la gestione statica della GUI;
 * **Javascript** e **JQuery** per la gestione dinamica della GUI;
-* **AJAX**, per l'interazione asincrona tra il client e le servlets;
+* **AJAX**, per l'interazione asincrona tra il client e server;
 * **NodeJS**, per la definizione e il deploy del server di segnalamento;
 * **XACML**, per la definizione delle policy di autorizzazione role-based;
 * **BCrypt**, per la gestione dei dati sensibili (i.e. le password);
@@ -80,10 +80,6 @@ Give an example
 * **Francesco Parricelli** 
 * **Aldo Strofaldi** 
 * **Luca Pirozzi** 
-
-
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
  
