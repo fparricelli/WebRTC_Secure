@@ -1,4 +1,4 @@
-# Secure Messaging ![alt text](./CertificateServer/WebContent/pages/images/icon.png width="48")
+# Secure Messaging <img src="./CertificateServer/WebContent/pages/images/icon.png" width="10%">
 
 L'obiettivo del progetto è lo sviluppo di una applicazione con interfaccia web-based di messaggistica point-to-point mediante ausilio di WebRTC, con funzioni di autenticazione gestite su un server Apache Tomcat attraverso servlets Java SSL, con meccanismo a due fattori per il login di utenti da dispositivi non noti, gestione di policy di autorizzazione role-based tra gli utenti, con la persistenza delle informazioni gestita attraverso un database-server MySQL, anch'esso configurato con SSL.
 
