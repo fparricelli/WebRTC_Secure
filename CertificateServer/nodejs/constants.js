@@ -26,7 +26,7 @@ module.exports = Object.freeze({
 	
 	
 	inactivity_limit_ms : 1800000,
-	interval_timeout_ms : 30000
+	interval_timeout_ms : 600000
 		
 		
 	

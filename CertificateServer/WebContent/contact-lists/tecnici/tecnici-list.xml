@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ContactList xmlns:ns2="it.sm.ContactList">
 	<Contact>
-		<username>bobbetto</username>
+		<username>bob</username>
 		<Name>Bob</Name>
 		<Surname>Aggiustatutto</Surname>
 		<Telephone>10024</Telephone>

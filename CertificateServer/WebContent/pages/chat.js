@@ -989,6 +989,7 @@ function handleNoAnswerOnOffer(offerDialog){
 	    	text : 'Continue',
 	        action: function () {
 	        	dialog.close();
+	        	handleLeave();
 	        	}
 	    	}
 	    }

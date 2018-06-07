@@ -12,4 +12,10 @@
 		<Surname>Mouse</Surname>
 		<Telephone>10450</Telephone>
 	</Contact>
+	<Contact>
+		<username>panda.panda</username>
+		<Name>Pierfrancesco Alfonso Maria</Name>
+		<Surname>De'Liquori</Surname>
+		<Telephone>10450</Telephone>
+	</Contact>
 </ContactList>
