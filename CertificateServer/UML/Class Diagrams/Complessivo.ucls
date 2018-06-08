@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="it.authentication.twosteps.TwoStepsLogic" project="CertificateServer" 
     file="/CertificateServer/src/it/authentication/twosteps/TwoStepsLogic.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="116" x="1871" y="223"/>    
+    <position height="-1" width="-1" x="1931" y="265"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="it.authentication.twosteps.TwoStepsManager" project="CertificateServer" 
     file="/CertificateServer/src/it/authentication/twosteps/TwoStepsManager.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="130" x="1511" y="130"/>    
+    <position height="-1" width="-1" x="1676" y="138"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="it.authentication.twosteps.TwoStepsServlet" project="CertificateServer" 
     file="/CertificateServer/src/it/authentication/twosteps/TwoStepsServlet.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="120" x="1871" y="130"/>    
+    <position height="-1" width="-1" x="1914" y="35"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="it.authentication.AuthenticationServlet" project="CertificateServer" 
     file="/CertificateServer/src/it/authentication/AuthenticationServlet.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1652" y="35"/>    
+    <position height="-1" width="-1" x="1306" y="25"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -129,7 +129,7 @@
   </class>  
   <class id="15" language="java" name="it.dao.DAOTrustedIPs" project="CertificateServer" 
     file="/CertificateServer/src/it/dao/DAOTrustedIPs.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="110" x="1629" y="326"/>    
+    <position height="-1" width="-1" x="1697" y="341"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -283,7 +283,7 @@
   </class>  
   <class id="32" language="java" name="it.utility.RandomStringGenerator" project="CertificateServer" 
     file="/CertificateServer/src/it/utility/RandomStringGenerator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="162" x="1669" y="223"/>    
+    <position height="-1" width="-1" x="1751" y="237"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -292,8 +292,8 @@
   </class>  
   <class id="33" language="java" name="it.utility.MutableBoolean" project="CertificateServer" 
     file="/CertificateServer/src/it/utility/MutableBoolean.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="115" x="1260" y="419"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="58" width="115" x="957" y="360"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
       <operations public="false" package="false" protected="false" private="false" static="true"/>    
@@ -328,7 +328,7 @@
   </class>  
   <class id="37" language="java" name="it.websocket.comm.WSHelper" project="CertificateServer" 
     file="/CertificateServer/src/it/websocket/comm/WSHelper.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="53" width="91" x="969" y="130"/>    
+    <position height="-1" width="-1" x="1043" y="133"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
