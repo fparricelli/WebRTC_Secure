@@ -13,6 +13,8 @@ Le tecnologie/librerie utilizzate sono elencate di seguito:
 * **WebRTC**, per lo scambio dei messaggi point-to-point su canale crittato;
 * Java **Servlet**, per la gestione dei meccanismi di autorizzazione/autenticazione;
 * **JSON**/**XML**, come formato di scambio di dati;
+* Realizzazione di un **IPS** custom per evitare furto di account
+* Utilizzo di una classe per l'autenticazione two-steps (e relativa libreria per interfacciamento **SMTP** )
 * DBMS **MySQL**, per la gestione della persistenza;
 * *Calendario dei Santi* Aggiornato al 2018.
 
