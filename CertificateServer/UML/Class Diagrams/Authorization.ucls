@@ -62,7 +62,7 @@
   </class>  
   <class id="8" language="java" name="it.utility.network.HTTPCommonMethods" project="CertificateServer" 
     file="/CertificateServer/src/it/utility/network/HTTPCommonMethods.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="303" y="504"/>    
+    <position height="-1" width="-1" x="299" y="508"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="true"/>      
@@ -71,7 +71,7 @@
   </class>  
   <package id="9" language="java" name="it.authentication" project="CertificateServer" 
     file="/CertificateServer/src/it/authentication" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="113" width="191" x="-3" y="305"/>    
+    <position height="113" width="191" x="11" y="302"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <class id="10" language="java" name="it.authentication.AuthenticationLogic" project="CertificateServer" 
