@@ -159,8 +159,8 @@ $(document).ready(function() {
 		    	btnClass: 'btn-red',
 		    	text : 'Continue',
 		        action: function () {
-		        	dialog.close();
 		        	window.location.href = login_page;
+		        	dialog.close();
 		        	}
 		    	}
 		    }
@@ -213,16 +213,15 @@ $('#close_button').on('click',function(){
 	    	btnClass: 'btn-blue',
 	    	text : 'Continue',
 	        action: function () {
-	        	dialog.close();
-
 	        	send({ 
 	                type: "close_chat", 
 	                //sender: nome+"_"+cognome 
 	                sender: username
 	             });
-	        	
+	        	resetTimeouts();
 	        	removeChat();
 	        	handleLeave();
+	        	dialog.close();
 	        	}
 	    	},
 			btnCancel : {
@@ -232,6 +231,7 @@ $('#close_button').on('click',function(){
 				dialog.close();
 				}
 			}
+	    	
 	    }
 	    });
 });
@@ -360,19 +360,59 @@ $('#send_button').on("click",function(){
 
 $(document).keypress(function(e) {
     if(e.which == 13 && jQuery.trim($('#inputText').val()).length > 0) {
-    	dataChannel.send($('#inputText').val());
-		displaySentMessage($('#inputText').val());
-	  scrollUp();
-      $('#inputText').val('');
+    	if(dataChannel.readyState !== "open")
+    	handleErrorChannel();
+    	else{
+    		dataChannel.send($('#inputText').val());
+			displaySentMessage($('#inputText').val());
+			scrollUp();
+      		$('#inputText').val('');
+    	}
     }
 
 });
+
+function handleErrorChannel(){
+		$('#inputText').val('');
+		var dialog = $.confirm({
+		closeIcon: false,
+		theme: 'modern',
+		    type: 'red',
+	    icon: 'fa fa-warning',
+	    title: 'Fatal Error!',
+	    content: 'Error on Data Channel!',
+	    buttons: {
+	    	btnok : {
+	    	btnClass: 'btn-red',
+	    	text : 'Continue',
+	        action: function () {
+	        	send({ 
+	                type: "close_chat", 
+	                //sender: nome+"_"+cognome 
+	                sender: username
+	             });
+	        	resetTimeouts();
+	        	removeChat();
+	        	handleLeave();
+	        	dialog.close();
+
+	        	
+	        	}
+	    	}
+	    }
+	    });
+	}
+
 
 function scrollUp(){
 	var objDiv = document.getElementById("chat_div");
 	     objDiv.scrollTop = objDiv.scrollHeight;
 }
 
+function resetTimeouts(){
+	answered = true;
+	offerAnswered = true;
+}
 
 /*//handler per il click sul bottone 'send message'
 sendMsgBtn.addEventListener("click", function (event) { 
@@ -851,7 +891,7 @@ function startCall(target){
 	answered = false;
 	console.log("Avvio chiamata verso:", target);
 	targetUser = target;
-	
+	setTimeout(function(){ if(!answered) handleNoAnswer(); }, 20000);
 	//creo una nuova offerta e la invio al signaling server
 	yourConn.createOffer(function (offer) { 
         send({ 
@@ -892,7 +932,6 @@ function startCall(target){
         
      }); 
 	
-	   setTimeout(function(){ if(!answered) handleNoAnswer(); }, 10000);
 }
 
  
@@ -909,6 +948,8 @@ function handleOffer(offer, user, status, namesurname, role) {
 	   
 	   console.log("Ricevuta offerta da utente:"+user+" con status:"+status+",invio risposta all'offerta.");
 	   console.log(offer);
+	   setTimeout(function(){ if(!offerAnswered) handleNoAnswerOnOffer(offerDialog); }, 20000);
+
 	   yourConn.setRemoteDescription(new RTCSessionDescription(offer)); 
 
 	   //ho ricevuto l'offerta dell'utente remoto, setto la sua remote peer description
@@ -924,9 +965,9 @@ function handleOffer(offer, user, status, namesurname, role) {
 		    	btnClass: 'btn-green',
 		    	text : 'Accept',
 		        action: function () {
-		        	offerDialog.close();
 		        	offerAnswered =true;
 		        	thereIsActiveChat = true;
+		        	offerDialog.close();
 		        	replyToOffer(offer, user, status, namesurname, role);
 		        	}
 		    	},
@@ -934,16 +975,14 @@ function handleOffer(offer, user, status, namesurname, role) {
 					btnClass: 'btn-red',
 					text : 'Refuse',
 					action: function () {
-					offerDialog.close();
 					offerAnswered = true;
+					offerDialog.close();
 					denyOffer(offer, user, status, namesurname, role);
 					}
 				}
 		    }
 		    });
-	   
-	   setTimeout(function(){ if(!offerAnswered) handleNoAnswerOnOffer(offerDialog); }, 10000);
-	   
+	   	   
 }
 
 
@@ -963,9 +1002,9 @@ function handleNoAnswer(){
 	    	btnClass: 'btn-orange',
 	    	text : 'Continue',
 	        action: function () {
-	        	dialog.close();
 	        	removeChat();
 	        	handleLeave();
+	        	dialog.close();
 	        	}
 	    	}
 	    }
@@ -988,8 +1027,8 @@ function handleNoAnswerOnOffer(offerDialog){
 	    	btnClass: 'btn-orange',
 	    	text : 'Continue',
 	        action: function () {
-	        	dialog.close();
 	        	handleLeave();
+	        	dialog.close();
 	        	}
 	    	}
 	    }
@@ -1024,8 +1063,8 @@ function denyOffer(){
 			    	btnClass: 'btn-red',
 			    	text : 'Continue',
 			        action: function () {
-			        	dialog.close();
 			        	removeChat();
+			        	dialog.close();
 			        	}
 			    	}
 			    }
@@ -1035,6 +1074,7 @@ function denyOffer(){
 }
 
 function handleDeny(){
+	resetTimeouts();
 	thereIsActiveChat = false;
 	contactingDialog.close();
 	removeChat();
@@ -1216,8 +1256,9 @@ function handleStatus(data){
 		    	btnClass: 'btn-red',
 		    	text : 'Continue',
 		        action: function () {
-		        	dialog.close();
 		        	handleLogout();
+
+		        	dialog.close();
 		        	}
 		    	}
 		    }
@@ -1240,10 +1281,11 @@ function handleStatus(data){
 		    	btnClass: 'btn-blue',
 		    	text : 'Continue',
 		        action: function () {
-		        	dialog.close();
 		        	thereIsActiveChat = false;
 		        	removeChat();
 		        	isrec_offline_offer=false;
+		        	dialog.close();
+		        	
 		        	}
 		    	}
 		    }
@@ -1294,8 +1336,8 @@ function handleStatus(data){
 		    	btnClass: 'btn-red',
 		    	text : 'Logout',
 		        action: function () {
-		        	dialog.close();
 		        	handleLogout();
+		        	dialog.close();
 		        	}
 		    	}
 		    }
@@ -1316,9 +1358,10 @@ function handleStatus(data){
 		    	btnok : {
 		    	btnClass: 'btn-red',
 		    	text : 'Continue',
-		        action: function () {
-		        	dialog.close();
+		        action: function () {	
 		        	removeChat();
+
+		        	dialog.close();
 		        	}
 		    	}
 		    }
@@ -1342,8 +1385,8 @@ function handleStatus(data){
 		    	btnClass: 'btn-orange',
 		    	text : 'Logout',
 		        action: function () {
-		        	dialog.close();
 		        	handleLogout();
+		        	dialog.close();
 		        	}
 		    	}
 		    }
@@ -1390,10 +1433,10 @@ function handleStatus(data){
 		    	btnClass: 'btn-red',
 		    	text : 'Logout',
 		        action: function () {
-		        	dialog.close();
-		    	
 		        	handleLogout();
-		        	}
+
+		        	dialog.close();
+		    			        	}
 		    	}
 		    }
 		    }); 
@@ -1416,10 +1459,10 @@ function handleStatus(data){
 		    	btnok : {
 		    	btnClass: 'btn-blue',
 		    	text : 'Continue',
-		        action: function () {
+		        action: function () {	
+		        	handleDeny();
 		        	dialog.close();
 		    	    
-		    		handleDeny();
 		        	}
 		    	}
 		    }
@@ -1442,10 +1485,11 @@ function handleStatus(data){
 		    	btnok : {
 		    	btnClass: 'btn-red',
 		    	text : 'Back to Login',
-		        action: function () {
+		        action: function () {	
+		        	handleLogout();
+
 		        	dialog.close();
 		    	
-		        	handleLogout();
 		        	}
 		    	}
 		    }
