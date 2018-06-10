@@ -351,11 +351,15 @@ function displayReceivedMessage(message){
 
 $('#send_button').on("click",function(){
 	if(jQuery.trim($('#inputText').val()).length > 0 ){
-	dataChannel.send($('#inputText').val());
-	displaySentMessage($('#inputText').val());
-   scrollUp();
-   $('#inputText').val('');
-}
+		if(dataChannel.readyState !== "open")
+	    	handleErrorChannel();
+		else{
+				dataChannel.send($('#inputText').val());
+				displaySentMessage($('#inputText').val());
+			   scrollUp();
+			   $('#inputText').val('');
+		}
+		}
 });
 
 $(document).keypress(function(e) {
