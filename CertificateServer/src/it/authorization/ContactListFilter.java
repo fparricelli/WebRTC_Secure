@@ -51,6 +51,11 @@ import it.utility.network.HTTPCodesClass;
 import it.utility.network.HTTPCommonMethods;
 
 
+/* Il filtro implementa una Integer Access Reference Map (OWASP)
+ * [https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References]
+ * per la gestione dei parametri, e utilizza una policy XACML per regolare l'accesso ai file contenuti
+ * nella cartella contact-lists. 
+ */
 
 
 public class ContactListFilter implements Filter {
@@ -81,10 +86,9 @@ public class ContactListFilter implements Filter {
 		String lista1 = ((HttpServletRequest)request).getParameter("list");
 		String ruolo1 = ((HttpServletRequest)request).getParameter("ruolo");
 		String token = ((HttpServletRequest)request).getParameter("token");
-		System.out.println("[ContactListFilter - Debug] Ricevo ruolo="+ruolo1+", lista="+lista1+", token="+token);
-		
-		
 		String regen = ((HttpServletRequest)request).getParameter("option");
+		
+		System.out.println("[ContactListFilter - Debug] Ricevo ruolo="+ruolo1+", lista="+lista1+", token="+token);
 		
 		
 		String list,ruolo = "";
@@ -97,9 +101,13 @@ public class ContactListFilter implements Filter {
 		
 		if(regen != null) {
 			
+			//Ottengo valore option
 			System.out.println("[ContactListFilter - Debug] Ottenuto valore option:"+regen);
+			
+			//Ne faccio il direct-reference
 			Integer option = optionMap.getDirectReference(regen);
 			
+			//Se il valore option è quello previsto: sto richiedendo rigenerazione del token
 			if(option == OPTION) {
 				System.out.println("[ContactListFilter - Debug] Rinnovo token");
 				newToken = AuthenticationLogic.regenToken(token);
@@ -107,6 +115,9 @@ public class ContactListFilter implements Filter {
 			}
 			
 		}else {
+			
+			//In caso contrario, ne richiedo solo la validazione (senza rigenerazione)
+			
 			System.out.println("[ContactListFilter - Debug] Richiedo solo validazione");
 			HashMap<String, Object> params = new HashMap<String, Object>();
 			validateResult = AuthenticationLogic.isValidToken(token, params);
@@ -117,7 +128,7 @@ public class ContactListFilter implements Filter {
 			
 		}
 		
-			
+		//Se la rigenerazione o la validazione non vanno a buon fine..
 		if((regen!=null && newToken == null) || ((regen==null) && !validateResult)) {
 
 			System.out.println("[ContactListFilter - Debug] Token non valido!");
@@ -125,6 +136,7 @@ public class ContactListFilter implements Filter {
 		
 		}else{
 			
+			//Altrimenti, procedo a valutare i permessi
 			RoleManager rm = RoleManager.getInstance();
 			
 			System.out.println("[ContactListFilter - Debug] Token valido!");
@@ -135,7 +147,8 @@ public class ContactListFilter implements Filter {
 			System.out.println("[ContactListFilter - Debug] Ricevuto list:"+listp);
 			System.out.println("[ContactListFilter - Debug] Ricevuto ruolo:"+ruolop);
 			
-			
+			//Qui, controllo che l'utente loggato (username) mi stia fornendo un ruolo coerente con quanto
+			//abbiamo ricavato all'atto del suo login, in caso contrario rigetto la richiesta
 			if(username != null && rm.hasUsername(username)) {
 				
 				String savedRoleN = rm.getRole(username);
@@ -149,8 +162,6 @@ public class ContactListFilter implements Filter {
 			
 			String listIntm = listMap.getDirectReference(listp);
 			String ruoloIntm = roleMap.getDirectReference(ruolop);
-			
-			
 			
 			
 			list = convertList(listIntm);
@@ -245,7 +256,6 @@ public class ContactListFilter implements Filter {
         
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         
-		//log.error("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" token expired (invalid hop) for supplied token");
 	
 		
     }catch(InvalidRoleException er) {
@@ -257,7 +267,6 @@ public class ContactListFilter implements Filter {
     	
     	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         
-		//log.error("["+timeStamp+"] - Request from "+request.getRemoteAddr()+": role different from the stored one");
 	
         
     }catch(IOException ex) {
@@ -265,9 +274,6 @@ public class ContactListFilter implements Filter {
         //In caso di IOException, non posso mandare risposta su output stream
         
        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-       //Se inviamo lo stack trace come log, è necessario fare le opportune considerazioni di sicurezza riguardo
-       //..tale scelta.
-       //log.error("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" IOException occured");
         
         ((HttpServletRequest)request).getSession().invalidate();
         
@@ -281,7 +287,6 @@ public class ContactListFilter implements Filter {
 		String ruolop = ((HttpServletRequest)request).getParameter("ruolo");
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        //log.error("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" no parameter mapping for supplied role:"+listp+"and list:"+ruolop);
         
         
     }catch(Exception exx) {
@@ -292,7 +297,6 @@ public class ContactListFilter implements Filter {
 	   
 	   String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 
-	   //log.error("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" Exception:"+exx.getMessage()+" occured");
       
        
        

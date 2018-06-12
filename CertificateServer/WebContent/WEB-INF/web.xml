@@ -11,12 +11,6 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>CertificateServlet</display-name>
-    <servlet-name>CertificateServlet</servlet-name>
-    <servlet-class>it.certificates.CertificateServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description></description>
     <display-name>TestServlet</display-name>
     <servlet-name>TestServlet</servlet-name>
     <servlet-class>test.TestServlet</servlet-class>
@@ -39,20 +33,6 @@
     <servlet-name>TwoFactorsServlet</servlet-name>
     <servlet-class>it.authentication.twosteps.TwoStepsServlet</servlet-class>
   </servlet>
-  <servlet>
-    <description></description>
-    <display-name>HashServlet</display-name>
-    <servlet-name>HashServlet</servlet-name>
-    <servlet-class>it.test.hash.HashServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HashServlet</servlet-name>
-    <url-pattern>/HashServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>CertificateServlet</servlet-name>
-    <url-pattern>/getCertificate</url-pattern>
-  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>RegistrationServlet</servlet-name>
     <url-pattern>/register/*</url-pattern>

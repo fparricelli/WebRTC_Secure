@@ -26,7 +26,14 @@ module.exports = Object.freeze({
 	
 	
 	inactivity_limit_ms : 1800000,
-	interval_timeout_ms : 600000
+	interval_timeout_ms : 600000,
+	
+	ws_cfg : {
+			  ssl: true,
+			  port: module.exports.server_port,
+			  ssl_key: module.exports.ssl_key_path,
+			  ssl_cert: module.exports.ssl_cer_path
+			}
 		
 		
 	
