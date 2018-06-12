@@ -1,0 +1,97 @@
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%    File      : leiaute_rt.sty
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Margens da página
+  \setulmarginsandblock{3cm}{4cm}{*}
+  \setlrmarginsandblock{2.5cm}{2.5cm}{*}
+  \checkandfixthelayout
+
+% Altera o espaçamento entre o cabeçalho e o início do texto
+  \setlength{\headsep}{1.5cm}
+  %\addtolength{\textheight}{0.5cm}
+
+% Remove a indentação dos parágrafos
+  \setlength\parindent{0pt}
+
+% Cria novos estilos de cabeçalhos e rodapés
+  % Cabeçalhos para páginas pré-textuais
+    \makepagestyle{pretextual}
+      \makeevenhead{pretextual}
+        {}
+        {}
+        {\includegraphics[width=10cm]{img/DIETI_large} }
+      
+      \makeoddhead{pretextual}
+        {}
+        {}
+        {\includegraphics[width=10cm]{img/DIETI_large} }
+
+      \makeheadrule{pretextual}{\textwidth}{\normalrulethickness}
+
+    % Não há rodapés para páginas pré-textuais
+
+  % Cabeçalhos para páginas textuais e pós-textuais
+    \makepagestyle{textual}
+      \makeevenhead{textual}
+        {}
+        {}
+        {\includegraphics[width=10cm]{img/DIETI_large} 
+        % Insere a o copyright CPAI
+        %\placetextbox{0.95}{0.75}{\rotatebox{90}{\tiny \copyright\ \textit{copyright} \the\year\ CPAI -- Todos os direitos reservados}}
+        }
+      
+      \makeoddhead{textual} %%pagina ímpar ou com oneside
+        {}
+        {}
+        {\includegraphics[width=10cm]{img/DIETI_large} 
+       % \placetextbox{0.95}{0.75}{\rotatebox{90}{\tiny \copyright\ \textit{copyright} \the\year\ CPAI -- Todos os direitos reservados}}
+       }
+
+      \makeheadrule{textual}{\textwidth}{\normalrulethickness}
+
+  % Rodapés para páginas textuais
+    \makeevenfoot{textual}
+      {\sffamily \color{black!60} \tiny%
+          Applicazioni Telematiche | Documentazione \textit{Secure Messaging} | Anno Accademico 2017/2018}
+      {}
+      {\sffamily \color{black!60} \tiny%
+          %Versão: \rtversao \\[-0.1cm]
+          \thepage\ }
+          
+
+    \makeoddfoot{textual}
+      {\sffamily \color{black!60} \tiny%
+          Applicazioni Telematiche | Documentazione \textit{Secure Messaging} | Anno Accademico 2017/2018 %\\Corso di Laurea Magistrale in Ingegneria Informatica
+          }
+      {}
+      {\sffamily \color{black!60} \tiny%
+          %Versão: \rtversao \\[-0.1cm]
+          \thepage\ }
+
+    \makefootrule{textual}{\textwidth}{\normalrulethickness}{0cm}
+
+%----------------------------------------------------------------------
+%% Substitui os comandos \pretextual, \textual e \postextual
+%----------------------------------------------------------------------
+\let\oldpretextual\pretextual
+\renewcommand{\pretextual}{%
+  \oldpretextual%
+  \pagestyle{pretextual}%
+  \aliaspagestyle{chapter}{pretextual}
+  }
+
+\let\oldtextual\textual
+\renewcommand{\textual}{%
+  \oldtextual%
+  \pagestyle{textual}%
+  \aliaspagestyle{chapter}{textual}
+  }
+
+\let\oldpostextual\postextual
+\renewcommand{\postextual}{%
+  \oldpostextual%
+  \pagestyle{pretextual}%
+  \aliaspagestyle{chapter}{pretextual}
+  }
+

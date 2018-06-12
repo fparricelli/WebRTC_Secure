@@ -1,0 +1,105 @@
+%% =======================================================================================
+%% 
+%% RELATÓRIO TÉCNICO
+%% Criado a partir da classe abntex2, desenvolvida pelo 
+%% Centro de Pesquisa em Arquitetura da Informação (CPAI)
+%% 
+%% Arquivos de dados:   sty/configs.sty         % Configuração dos pacotes LaTeX
+%%                      sty/metadados_rt.sty    % METADADOS DO RELATÓRIO - PREENCHER!
+%%                      sty/dados_cpai.sty      % Informações institucionais CPAI / FUB
+%%                      sty/timbrado.sty        % Formatação do documento (layout)
+%%                      sty/vocabulario.sty     % Comandos LaTeX para facilitar digitação
+%% 
+%% =======================================================================================
+
+\documentclass[pdftex,11pt,oneside,a4paper,english,italian,spanish,brazil]{abntex2}
+
+
+% ----------------------------------------------------------------------------------------
+% - PACOTES
+  \usepackage{sty/configs}                  % Pacotes utilizados
+  \usepackage{sty/metadados_rt}             % Dados do órgão / cliente
+  \usepackage{sty/dados_cpai}               % Dados do CPAI/FUB
+  \usepackage{sty/vocabulario}              % Vocabulário específico do projeto
+  \usepackage{sty/leiaute_rt} 
+  \usepackage{caption} 
+  \renewcommand\captionfont{\footnotesize} 
+
+  \usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % For special keywords
+\lstset{language=[LaTeX]Tex,%C++ % Specify the language(s) for listings here
+morekeywords={PassOptionsToPackage,selectlanguage},
+keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
+basicstyle=\small\ttfamily, % Makes listings a smaller font size and a different font
+%identifierstyle=\color{NavyBlue}, % Color of text inside brackets
+commentstyle=\color{Green}\ttfamily, % Color of comments
+stringstyle=\rmfamily, % Font type to use for strings
+numbers=left, % Change left to none to remove line numbers
+numberstyle=\scriptsize, % Font size of the line numbers
+stepnumber=5, % Increment of line numbers
+numbersep=8pt, % Distance of line numbers from code listing
+showstringspaces=false, % Sets whether spaces in strings should appear underlined
+breaklines=true, % Force the code to stay in the confines of the listing box
+%frameround=ftff, % Uncomment for rounded frame
+%frame=single, % Frame border - none/leftline/topline/bottomline/lines/single/shadowbox/L
+belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text and the listing box
+}            % Definições de layout do documento
+\usepackage{xcolor}
+\lstset{
+   basicstyle=\fontsize{9}{9}\selectfont\ttfamily,
+frame=lrb,xleftmargin=\fboxsep,xrightmargin=-\fboxsep}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{%
+  \parbox{\textwidth}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}\vskip-0pt}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+% ----------------------------------------------------------------------------------------
+\renewcommand{\lstlistingname}{Listato}
+% ----------------------------------------------------------------------------------------
+% - INÍCIO DO DOCUMENTO
+  \begin{document}
+      \begin{sloppypar}
+          
+          % Seleciona o idioma do documento (conforme pacotes do babel)
+            %\selectlanguage{english}
+            \selectlanguage{italian}
+            
+          % Retira espaço extra obsoleto entre as frases.
+            \frenchspacing
+          
+          % ------------------------------------------------------------------------------
+          % - ESTRUTURA DO DOCUMENTO
+          % ------------------------------------------------------------------------------
+          % ------------------------------------------------------------------------------
+          % - PRÉ-TEXTUAL
+          % ------------------------------------------------------------------------------
+          \pretextual
+
+          % Capa
+            \input{pre-textual/capa}
+            \cleardoublepage
+          
+          \shipout \null
+
+          % Sumarios
+            \vspace{1cm}
+            
+   
+            \tableofcontents
+            
+          % Lista de abreviaturas e siglas
+         
+            
+          % ------------------------------------------------------------------------------
+          % - TEXTUAL
+          % ------------------------------------------------------------------------------
+          %%Inserire qui capitoli
+          \include{textual/documentazione}
+
+          % ------------------------------------------------------------------------------
+          % - PÓS-TEXTUAL
+          % ------------------------------------------------------------------------------
+          \postextual          
+        
+
+    \end{sloppypar}
+\end{document}
