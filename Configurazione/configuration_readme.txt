@@ -8,8 +8,9 @@ Per essere in grado di eseguire l'applicativo, si ha bisogno di configurare appl
     Database Server MySQL;
     NodeJS (utilizzata : LTS)
 	
-	Si consiglia l'utilizzo di browser Google Chrome o Mozilla Firefox. 
-	Si sono riscontrati problemi con Apple Safari per il supporto WebRTC.
+	Si consiglia l'utilizzo di browser Google Chrome.
+	Si sono riscontrati problemi con Apple Safari/Mozilla Firefox per il supporto WebRTC.
+	Assicurarsi inoltre di essere connessi ad Internet prima di avviare l'applicazione.
 	
 	
 1) CONFIGURAZIONE MySQL + SSL
