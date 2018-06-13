@@ -44,12 +44,15 @@ Appartengono a questo package la servlet di autenticazione e la relativa logica 
 \vspace*{\fill}
 
 \end{center}	
-\end{landscape}%
+
+\end{landscape}%
 
 \subsubsection{Package: \textbf{authorization}}
 
-Le classi di questo package si occupano di determinare se l’utente è autorizzato ad effettuare una determinata operazione. Il package è visualizzato in figura \ref{gfx:dependencies_authorization}.
+Le classi di questo package si occupano di determinare se l’utente è autorizzato ad effettuare una determinata operazione.\\
+In particolare, contiene un filtro (ContactListFilter) che si occupa di filtrare le richieste che vengono fatte verso le diverse contact-lists disponibili, ed accettarle in base al rispetto delle policy XACML previste.
 
+Il package è visualizzato in figura \ref{gfx:dependencies_authorization}.
 
 \begin{figure}[!htbp]
 	\centering
@@ -68,18 +71,6 @@ Il package è visualizzato in figura \ref{gfx:dependencies_bcrypt}.
 	\includegraphics[scale = .5]{img/dependencies_bcrypt}
 	\caption{Package BCrypt}
 	\label{gfx:dependencies_bcrypt}
-\end{figure}
-
-\subsubsection{Package: \textbf{certificates}}
-
-Contiene la servlet a cui rivolgersi per recuperare i certificati associati ad utenti, tecnici ed amministratori.
-Il package è visualizzato in figura \ref{gfx:dependencies_certificates}.
-
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[scale = .5]{img/dependencies_certificates}
-	\caption{Package Certificates}
-	\label{gfx:dependencies_certificates}
 \end{figure}
 
 \subsubsection{Package: \textbf{DAO}}
@@ -127,7 +118,8 @@ Il package è visualizzato in figura \ref{gfx:dependencies_exception}, a pagina 
 \vspace*{\fill}
 
 \end{center}	
-\end{landscape}%
+
+\end{landscape}%
 
 \subsubsection{Package: \textbf{keystore}}
 
@@ -253,6 +245,8 @@ Il package è visualizzato in figura \ref{gfx:dependencies_webfilter}.
 \subsubsection{Package: \textbf{websocket}}
 
 Questo package contiene le classi per la gestione delle Web Socket.
+In particolare, contiene classi che consentono l'interfacciamento con il server nodeJS e la comunicazione dei dati relativi agli utenti che hanno correttamente effettuato la procedura di login.\\
+Infatti, nel momento in cui un utente effettua il login presso il server principale, le sue informazioni saranno inoltrate anche al server nodeJS: per evitare la falsificazione delle informazioni che vengono inviate al server nodeJS, sono state predisposte alcune misure di sicurezza con cui il server nodeJS è in grado di capire se il messaggio ricevuto proviene effettivamente dal server principale o meno: per ulteriori dettagli, si rimanda ai sequence diagram relativi alla fase di login.\\
 
 Il package è visualizzato in figura \ref{gfx:dependencies_websocket}.
 
