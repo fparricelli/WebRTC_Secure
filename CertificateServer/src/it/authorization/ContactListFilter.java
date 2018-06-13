@@ -119,6 +119,7 @@ public class ContactListFilter implements Filter {
 					HashMap<String, Object> params = new HashMap<String, Object>();
 					AuthenticationLogic.isValidToken(newToken, params);
 					username = params.get("username").toString();
+					System.out.println("[ContactListFilter - Debug(regen)] Trovato:"+username);
 				}
 			
 			}
@@ -133,7 +134,7 @@ public class ContactListFilter implements Filter {
 			
 			//Ricavo l'username associato al token
 			username = params.get("username").toString();
-			System.out.println("[ContactListFilter - Debug] Trovato:"+username);
+			System.out.println("[ContactListFilter - Debug(non-regen)] Trovato:"+username);
 			
 			
 		}

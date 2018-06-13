@@ -611,7 +611,7 @@ wss.on('connection', function(connection) {
         			  * (Se sto rispondendo, vuol dire che chi mi ha inviato l'offerta aveva i permessi per farlo)
         			  */
         			 
-        				 var res = await user_utilities.checkUserToken(data.sender_token, role_send, list);
+        				 var res = await user_utilities.checkUserToken(data.sender_token, list, role_send);
         			 
         				 //Quando arrivo qui, i permessi saranno stati già verificati in fase di invio offer
         				 if(res.result == constants.PERMIT || res.result == constants.DENY){
