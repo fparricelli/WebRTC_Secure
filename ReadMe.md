@@ -24,9 +24,10 @@ Le tecnologie/librerie utilizzate sono elencate di seguito:
 Il **progetto** è interamente contenuto all'interno della folder */CertificateServer*.
 
 La **documentazione** è realizzata in LaTeX e i sorgenti sono localizzati in */LaTEX* mentre il compilato è in */Documentazione Finale*.
+
 I diagrammi sono realizzati con Visual Paradigm, e la cartella */UML/Visual Paradigm* contiene il file del progetto.
 
-La folder */Demo* contiene un video illustrativo del progetto.
+La folder */Demo* contiene un **video** illustrativo del progetto.
 
 ## Getting Started
 
