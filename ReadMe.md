@@ -38,7 +38,7 @@ Per essere in grado di eseguire l'applicativo, si ha bisogno di effettuare e con
 * Database Server MySQL;
 * NodeJS;
 
-La guida completa per la configurazione dell'applicativo, corredata di guide ed esempi, si trova nella cartella */Configurazioner*.
+La guida completa per la configurazione dell'applicativo, corredata di guide ed esempi, si trova nella cartella */Configurazione*.
 
 ## Esecuzione Applicazione
 
