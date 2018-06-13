@@ -1,0 +1,34 @@
+\changetocdepth {4}
+\select@language {brazil}
+\select@language {italian}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Indice}{2}{section*.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Documentazione}}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Documentazione Server Tomcat}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Diagramma delle Classi}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Package: \textbf {access control}}{3}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.2}Package: \textbf {authentication}}{4}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.1.3}Package: \textbf {authorization}}{6}{subsubsection.1.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.1.4}Package: \textbf {bcrypt}}{6}{subsubsection.1.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.1.5}Package: \textbf {DAO}}{7}{subsubsection.1.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.1.6}Package: \textbf {entity}}{7}{subsubsection.1.1.1.6}
+\contentsline {subsubsection}{\numberline {1.1.1.7}Package: \textbf {exception}}{8}{subsubsection.1.1.1.7}
+\contentsline {subsubsection}{\numberline {1.1.1.8}Package: \textbf {keystore}}{10}{subsubsection.1.1.1.8}
+\contentsline {subsubsection}{\numberline {1.1.1.9}Package: \textbf {keystore.rsaKeystore}}{10}{subsubsection.1.1.1.9}
+\contentsline {subsubsection}{\numberline {1.1.1.10}Package: \textbf {registration}}{10}{subsubsection.1.1.1.10}
+\contentsline {subsubsection}{\numberline {1.1.1.11}Package: \textbf {twosteps}}{10}{subsubsection.1.1.1.11}
+\contentsline {subsubsection}{\numberline {1.1.1.12}Package: \textbf {utility}}{12}{subsubsection.1.1.1.12}
+\contentsline {subsubsection}{\numberline {1.1.1.13}Package: \textbf {utility.database}}{12}{subsubsection.1.1.1.13}
+\contentsline {subsubsection}{\numberline {1.1.1.14}Package: \textbf {utility.mail}}{12}{subsubsection.1.1.1.14}
+\contentsline {subsubsection}{\numberline {1.1.1.15}Package: \textbf {utility.network}}{12}{subsubsection.1.1.1.15}
+\contentsline {subsubsection}{\numberline {1.1.1.16}Package: \textbf {webfilter}}{13}{subsubsection.1.1.1.16}
+\contentsline {subsubsection}{\numberline {1.1.1.17}Package: \textbf {websocket}}{13}{subsubsection.1.1.1.17}
+\contentsline {subsubsection}{\numberline {1.1.1.18}Package: \textbf {xml.registration}}{14}{subsubsection.1.1.1.18}
+\contentsline {section}{\numberline {1.2}Sequence Diagrams}{14}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Server Interaction (Login)}{14}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Offer Interaction}{16}{subsubsection.1.2.1.1}
+\contentsline {subsubsection}{\numberline {1.2.1.2}Answer Interaction}{18}{subsubsection.1.2.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1.3}ICE Candidates Interaction}{20}{subsubsection.1.2.1.3}
+\contentsline {subsubsection}{\numberline {1.2.1.4}Inactivity Timeout Interaction}{22}{subsubsection.1.2.1.4}
+\contentsline {subsubsection}{\numberline {1.2.1.5}Contact List Filter}{22}{subsubsection.1.2.1.5}

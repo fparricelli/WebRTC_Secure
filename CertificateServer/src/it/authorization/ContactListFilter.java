@@ -236,22 +236,30 @@ public class ContactListFilter implements Filter {
 				
 			} else if (dec == 1) {
 				System.out.println("DENY");
-				HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED,newToken);
+				
+				
+				if(newToken != null) {
+					HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED,newToken);
+				}else {
+					HTTPCommonMethods.sendReplyHeaderOnly(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED);
+				}
+				
 				((HttpServletRequest)request).getSession().invalidate();
-				
-				String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-				//log.warn("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" - access denied for requested list="+list+"");
-				
+					
 				
 			} else if (dec == 2||dec==3) {
         	
 				System.out.println("NOT APPLICABLE");
-				HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED,newToken);
+
+				if(newToken != null) {
+					HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED,newToken);
+				}else {
+					HTTPCommonMethods.sendReplyHeaderOnly(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED);
+				}
+				
 				((HttpServletRequest)request).getSession().invalidate();
-				
-				String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-				//log.warn("["+timeStamp+"] - Request from "+request.getRemoteAddr()+" - unapplicable policy for requested list="+list+" and role="+ruolo);
-				
+					
+			
 			}
 		}
     
@@ -264,7 +272,6 @@ public class ContactListFilter implements Filter {
         HTTPCommonMethods.sendReplyHeaderOnly(((HttpServletResponse)response), HTTPCodesClass.TEMPORARY_REDIRECT);
         ((HttpServletRequest)request).getSession().invalidate();
         
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         
 	
 		
@@ -275,7 +282,6 @@ public class ContactListFilter implements Filter {
     	HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED, newToken);
     	((HttpServletRequest)request).getSession().invalidate();
     	
-    	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         
 	
         
@@ -283,7 +289,6 @@ public class ContactListFilter implements Filter {
         ex.printStackTrace();
         //In caso di IOException, non posso mandare risposta su output stream
         
-       String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         
         ((HttpServletRequest)request).getSession().invalidate();
         
@@ -293,22 +298,13 @@ public class ContactListFilter implements Filter {
     	HTTPCommonMethods.sendReplyHeaderWithToken(((HttpServletResponse)response), HTTPCodesClass.UNAUTHORIZED, newToken);
 	    ((HttpServletRequest)request).getSession().invalidate();
     	
-    	String listp = ((HttpServletRequest)request).getParameter("list");
-		String ruolop = ((HttpServletRequest)request).getParameter("ruolo");
-		
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        
-        
+	    
     }catch(Exception exx) {
 	   exx.printStackTrace();
 	   //lato client, rimando al login
 	   HTTPCommonMethods.sendReplyHeaderOnly(((HttpServletResponse)response), HTTPCodesClass.SERVER_ERROR);
        ((HttpServletRequest)request).getSession().invalidate();
 	   
-	   String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-
-      
-       
        
    }
         
