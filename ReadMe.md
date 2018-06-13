@@ -17,7 +17,16 @@ Le tecnologie/librerie utilizzate sono elencate di seguito:
 * Realizzazione di un **IPS** custom per evitare furto di account
 * Utilizzo di una classe per l'autenticazione two-steps (e relativa libreria per interfacciamento **SMTP**)
 * DBMS **MySQL**, per la gestione della persistenza;
-* *Calendario dei Santi* Aggiornato al 2018.
+* ~~*Calendario dei Santi* Aggiornato al 2018.~~
+
+## Organizzazione Progetto
+
+Il **progetto** è interamente contenuto all'interno della folder */CertificateServer*.
+
+La **documentazione** è realizzata in LaTeX e i sorgenti sono localizzati in */LaTEX* mentre il compilato è in */Documentazione Finale*.
+I diagrammi sono realizzati con Visual Paradigm, e la cartella */UML/Visual Paradigm* contiene il file del progetto.
+
+La folder */Demo* contiene un video illustrativo del progetto.
 
 ## Getting Started
 
@@ -46,7 +55,7 @@ Il browser, con ogni probabilità, indicherà che non è sicuro in quanto self-s
 
 
 
-## Authors
+## Autori
 
 * **Francesco Parricelli** 
 * **Aldo Strofaldi** 
