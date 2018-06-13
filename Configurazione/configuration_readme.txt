@@ -1,7 +1,7 @@
-************************README**********************************
+﻿************************README**********************************
 CONFIGURAZIONE:
 
-Per essere in grado di eseguire l'applicativo, si ha bisogno di effettuare e configurare applicativi di terze parti. In particolare, è necessario avere:
+Per essere in grado di eseguire l'applicativo, si ha bisogno di configurare applicativi di terze parti. In particolare, è necessario avere:
 
     Java JRE (la versione utilizzata è la 1.8);
     Distribuzione Apache Tomcat (la versione utilizzata è la 7.0);
