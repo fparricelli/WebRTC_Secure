@@ -109,9 +109,18 @@ public class ContactListFilter implements Filter {
 			
 			//Se il valore option è quello previsto: sto richiedendo rigenerazione del token
 			if(option == OPTION) {
+				
 				System.out.println("[ContactListFilter - Debug] Rinnovo token");
 				newToken = AuthenticationLogic.regenToken(token);
 				System.out.println("[ContactListFilter - Debug] new Token :"+newToken);
+				
+				//Per ricavare l'username associato al token
+				if(newToken != null) {
+					HashMap<String, Object> params = new HashMap<String, Object>();
+					AuthenticationLogic.isValidToken(newToken, params);
+					username = params.get("username").toString();
+				}
+			
 			}
 			
 		}else {
@@ -122,6 +131,7 @@ public class ContactListFilter implements Filter {
 			HashMap<String, Object> params = new HashMap<String, Object>();
 			validateResult = AuthenticationLogic.isValidToken(token, params);
 			
+			//Ricavo l'username associato al token
 			username = params.get("username").toString();
 			System.out.println("[ContactListFilter - Debug] Trovato:"+username);
 			
