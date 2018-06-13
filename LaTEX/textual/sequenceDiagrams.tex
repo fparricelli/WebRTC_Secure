@@ -3,12 +3,34 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 \textual
-
+\newpage
 %\chapter{Dependability}\label{cap:dependability}
 
 \section{Sequence Diagrams}
 
 In questa sezione vengono mostrati e commentati i sequence diagrams realizzati per le funzionalità più significative dell'applicazione realizzata.
+
+\subsection{Scenario Login}
+
+In figura \ref{gfx:sdlogin} è riportato lo scenario di Login, con le operazioni che il sistema effettua rispetto agli input inseriti dall'utente. Si nota che sulla base della risposta ricevuta dalla servlet viene visualizzato un differente messaggio di errore 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[scale = .4]{img/sd_login.jpg}
+	\caption{Scenario Login}
+	\label{gfx:sdlogin}
+\end{figure}
+
+\subsection{Scenario Registrazione}
+
+In figura \ref{gfx:sdregister} è riportato lo scenario di Registrazione per gli utenti, con le operazioni che il sistema effettua rispetto agli input inseriti dall'utente, verificanti la validità della password in termini di strongness, richiedendo un carattere maiuscolo, uno minuscolo e un numero per un totale di almeno 8 caratteri, e dell'email, rispetto al formato. Si nota che sulla base della risposta ricevuta dalla servlet viene visualizzato un differente messaggio di errore.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[scale = .4]{img/sd_register.jpg}
+	\caption{Scenario Register}
+	\label{gfx:sdregister}
+\end{figure}
 
 \subsection{Server Interaction (Login)}
 
@@ -41,7 +63,7 @@ Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.
 
 
 
-\subsubsection{Offer Interaction}
+\subsection{Offer Interaction}
 
 In figura \ref{gfx:offerinteraction} si mostra l'interazione che si viene a realizzare ogniqualvolta un utente decide di inviare una \textit{offer} verso un altro utente, con l'intenzione di configurare e avviare una chat.
 
@@ -69,7 +91,7 @@ Inoltre, se tutte le verifiche di cui sopra vanno a buon fine, il server nodeJS 
 Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.\\
 
 
-\subsubsection{Answer Interaction}
+\subsection{Answer Interaction}
 
 In figura \ref{gfx:answerinteraction} si riporta il sequence diagram che mostra l'interazione tra utente A e utente B nel momento in cui vi è l'invio di una \textit{answer}: supponendo che l'utente A voglia chiamare l'utente B, e che l'invio dell'offer sia avvenuto correttamente verso l'utente B, andremo a descrivere la comunicazione che avviene nel momento in cui B decide di inviare una answer ad A, tramite il signaling server.
 
@@ -105,7 +127,7 @@ Se invece la procedura va a buon fine, il signaling server si occuperà di inolt
 In questo modo (una volta avvenuta anche la configurazione degli ICE candidates) la connessione è finalmente stabilita, e quindi utente A e utente B possono iniziare lo scambio di messaggi.\\
 Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.\\
 
-\subsubsection{ICE Candidates Interaction}
+\subsection{ICE Candidates Interaction}
 
 In figura \ref{gfx:candidatesinteraction}, il sequence diagram illustra il meccanismo con cui avviene la comunicazione e lo scambio degli ICE candidates tra l'utente A e l'utente B.
 
@@ -135,7 +157,7 @@ Il sequence diagram riportato di seguito mostra il meccanismo con cui è possibi
 Il timeout è stato programmato per scattare ogni 5 minuti.\\
 Quando la callback associata al timeout viene invocata, andremo ad analizzare tutti gli utenti con connessioni attive verso il signaling server (presenti tra i connectedUsers) per identificare quegli utenti che sono rimasti \textit{inattivi} (ovvero che non hanno inviato answer/offer e che non possiedono connessioni attive): tali utenti verranno quindi rimossi dai loggedUsers e dai connectedUsers, notificando l'evento con un apposito messaggio di stato lato client.\\
 
-\subsubsection{Contact List Filter}
+\subsection{Contact List Filter}
 
 Il diagramma in figura \ref{gfx:contactlistfilter} mostra il comportamento del filtro ContactListFilter, utilizzato per l'accesso alle contact-lists che vengono prelevate dagli utenti ogni volta che si connettono alla chat, per poter selezionare (in base a policy ben precise) con quale utente comunicare.
 
@@ -159,3 +181,4 @@ Una volta assicuratoci che il token di accesso è valido, andremo innanzitutto a
 In caso di accesso consentito, il filtro si limita semplicemente ad allegare il token rinnovato (se presente) e a far avanzare correttamente la richiesta; in caso di permesso negato, invieremo comunque il token rinnovato (se presente), ma notificheremo il client con uno status code 401 (Unauthorized).\\
 
 Per ulteriori dettagli, si rimanda alla documentazione interna del server nodeJS o del contact list filter.\\
+

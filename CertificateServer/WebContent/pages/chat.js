@@ -283,7 +283,7 @@ function initTop(){
 function translateRoleName(name){
 	switch (name){
 		case "tecnico": return "Technician";
-		case "amministratore": return "Administrator";
+		case "admin": return "Administrator";
 		case "utente":return "User";
 		default:return "undefined";
 	} 

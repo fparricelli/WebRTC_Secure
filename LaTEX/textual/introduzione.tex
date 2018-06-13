@@ -1,6 +1,7 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %    File      : webanalysis
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\textual 
 
 \chapter{Introduzione}
 
@@ -26,4 +27,10 @@ Sono state inoltre seguite le direttive \textit{OWASP} per la mitigazione degli 
 
 Uno sguardo attento è stato rivolto alla considerazione di ogni scenario possibile facendo uso del client web, cercando di garantire che i dati immessi dall'utente siano sempre ben formati alla sorgente (mail, campi numerici, ecc.), garantendo robustezza e alleggerendo il carico del server e riducendo le possibilità di richieste mal costruite ed errori. Un esempio è l'utilizzo di regex per il controllo della validità di una mail.
 
+In termini pratici, l'applicazione consente lo scambio di messaggi tra utenti in maniera sicura. Non tutti gli utenti sono abilitati a scambiarsi messaggi, ma ciò è possibile solo rispetto alle politiche XACML implementate:
+\begin{enumerate}
+	\item Gli utenti possono richiedere una sessione solo con i tecnici;
+	\item I tecnici possono richiedere una sessione con altri tecnici o con utenti;
+	\item Gli amministratori possono richiedere una sessione con i tecnici, utenti e altri amministratori.
+	\end{enumerate}
 \newpage
