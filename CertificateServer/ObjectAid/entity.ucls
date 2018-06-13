@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="it.entity.User" project="CertificateServer" 
     file="/CertificateServer/src/it/entity/User.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="405" width="245" x="72" y="-65"/>    
+    <position height="405" width="245" x="329" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,25 @@
   </class>  
   <class id="2" language="java" name="it.entity.TrustedDevice" project="CertificateServer" 
     file="/CertificateServer/src/it/entity/TrustedDevice.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="163" x="357" y="-65"/>    
+    <position height="189" width="163" x="873" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="it.entity.LockedUserIP" project="CertificateServer" 
+    file="/CertificateServer/src/it/entity/LockedUserIP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="248" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.entity.FailedLoginsIP" project="CertificateServer" 
+    file="/CertificateServer/src/it/entity/FailedLoginsIP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="219" x="614" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

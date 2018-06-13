@@ -1,35 +1,33 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.26)  13 JUN 2018 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.6.13)  13 JUN 2018 22:00
 entering extended mode
 **./at.tex
 (at.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-
-("C:\Users\Aldo Strofaldi\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2.
-cls"
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls"
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
-(D:\Programmi\MiKTeX\tex\latex\base\ifthen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(D:\Programmi\MiKTeX\tex\latex\memoir\memoir.cls
-Document Class: memoir 2018/04/04 v3.7g configurable book, report, article docu
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
+Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
 \xlvchars=\skip43
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
-(D:\Programmi\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(D:\Programmi\MiKTeX\tex\latex\ifetex\ifetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty"
 Package: ifetex 2018/03/31 v1.2a ifetex
 
-(D:\Programmi\MiKTeX\tex\plain\ifetex\ifetex.tex))
-(D:\Programmi\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(D:\Programmi\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -38,7 +36,7 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(D:\Programmi\MiKTeX\tex\latex\memoir\mem11.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mem11.clo"
 File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 )
 \binding=\skip48
@@ -191,8 +189,8 @@ File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7578.
-LaTeX Info: Redefining \emph on input line 7586.
+LaTeX Info: Redefining \em on input line 7551.
+LaTeX Info: Redefining \emph on input line 7559.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -275,8 +273,8 @@ LaTeX Info: Redefining \emph on input line 7586.
 \FrameRule=\dimen145
 \FrameSep=\dimen146
 \c@cp@cntr=\count118
-LaTeX Info: Redefining \: on input line 12100.
-LaTeX Info: Redefining \! on input line 12102.
+LaTeX Info: Redefining \: on input line 12068.
+LaTeX Info: Redefining \! on input line 12070.
 \c@ism@mctr=\count119
 \c@xsm@mctr=\count120
 \c@csm@mctr=\count121
@@ -303,7 +301,7 @@ LaTeX Info: Redefining \! on input line 12102.
 \cfttablenumwidth=\skip184
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
-Package array [2016/10/06] emulated by memoir.
+Package array [2008/09/09] emulated by memoir.
 Package booktabs [2016/05/16] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
@@ -311,7 +309,7 @@ Package chngcntr [2008/07/23] emulated by memoir.
 Package chngpage [2008/07/23] emulated by memoir.
 Package crop emulated by memoir.
 Package dcolumn [2008/07/23] emulated by memoir.
-Package delarray [2014/10/28] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
 Package enumerate [2008/07/23] emulated by memoir.
 Package epigraph [2008/07/23] emulated by memoir.
 Package ifmtarg [2008/07/23] emulated by memoir.
@@ -328,7 +326,7 @@ Package patchcmd [2008/07/23] emulated by memoir.
 Package setspace [2008/07/23] emulated by memoir.
 Package shortvrb [2008/07/23] emulated by memoir.
 Package showidx [2008/07/23] emulated by memoir.
-Package tabularx [2016/02/03] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
 Package titleref [2008/07/23] emulated by memoir.
 Package titling [2008/07/23] emulated by memoir.
 Package tocbibind [2008/07/23] emulated by memoir.
@@ -336,20 +334,23 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-)
-(D:\Programmi\MiKTeX\tex\latex\textcase\textcase.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mempatch.sty"
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
-(D:\Programmi\MiKTeX\tex\latex\hyperref\hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(D:\Programmi\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(D:\Programmi\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -366,7 +367,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -388,151 +389,156 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(D:\Programmi\MiKTeX\tex\latex\graphics\keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count137
 \Hy@pagecounter=\count138
 
-(D:\Programmi\MiKTeX\tex\latex\hyperref\pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count139
 
-(D:\Programmi\MiKTeX\tex\latex\00miktex\hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count140
 
-(D:\Programmi\MiKTeX\tex\latex\url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen148
 \Fld@menulength=\count141
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count142
 \c@Item=\count143
 \c@Hfootnote=\count144
 )
-(D:\Programmi\MiKTeX\tex\latex\memoir\memhfixc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
 \c@memhycontfloat=\count145
 \c@Hpagenote=\count146
 )
+Package hyperref Info: Driver: hpdftex.
 
-Package hyperref Message: Driver: hpdftex.
-
-(D:\Programmi\MiKTeX\tex\latex\hyperref\hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count147
 \c@bookmark@seq@number=\count148
 
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
 )
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\bookmark.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\bkm-pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
-(D:\Programmi\MiKTeX\tex\generic\babel\babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/02/14 3.18 The Babel package
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
-(D:\Programmi\MiKTeX\tex\latex\arabi\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(D:\Programmi\MiKTeX\tex\latex\babel-english\english.ldf
-Language: english 2017/01/24 v3.3q English support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
 
-(D:\Programmi\MiKTeX\tex\generic\babel\babel.def
-File: babel.def 2017/05/19 3.10 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count150
 \U@D=\dimen151
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count151
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(D:\Programmi\MiKTeX\tex\latex\babel-italian\italian.ldf
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-italian\italian.ldf"
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
-\it@lettering=\count151
-\it@doublequoteactive=\count152
-\it@ISOcompliance=\count153
+\it@lettering=\count152
+\it@doublequoteactive=\count153
+\it@ISOcompliance=\count154
 )
-(D:\Programmi\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 \es@quottoks=\toks23
-\es@quotdepth=\count154
+\es@quotdepth=\count155
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 )
-(D:\Programmi\MiKTeX\tex\latex\babel-portuges\portuges.ldf
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf"
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 ))
-(D:\Programmi\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count155
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count156
 )
-(D:\Programmi\MiKTeX\tex\latex\enumitem\enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip186
 \enit@outerparindent=\dimen152
 \enit@toks=\toks24
 \enit@inbox=\box29
-\enitdp@description=\count156
+\enitdp@description=\count157
 )
-(D:\Programmi\MiKTeX\tex\latex\tools\calc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count157
-\calc@Bcount=\count158
+\calc@Acount=\count158
+\calc@Bcount=\count159
 \calc@Adimen=\dimen153
 \calc@Bdimen=\dimen154
 \calc@Askip=\skip187
 \calc@Bskip=\skip188
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count159
+\calc@Ccount=\count160
 \calc@Cskip=\skip189
 )
 
@@ -555,21 +561,21 @@ Sidefoothsep and sidefootwidth: 7pt and 49pt
 Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count160
+\c@abntex@bookmarkcounter=\count161
 \cftlastnumwidth=\skip190
 \chapternamenumlength=\skip191
 \ABNTEXcitacaorecuo=\skip192
-\c@alineasi=\count161
-\c@alineasii=\count162
-\enitdp@alineas=\count163
-\c@subalineasi=\count164
-\enitdp@subalineas=\count165
-\c@incisosi=\count166
-\enitdp@incisos=\count167
+\c@alineasi=\count162
+\c@alineasii=\count163
+\enitdp@alineas=\count164
+\c@subalineasi=\count165
+\enitdp@subalineas=\count166
+\c@incisosi=\count167
+\enitdp@incisos=\count168
 \ABNTEXsignwidth=\skip193
 \ABNTEXsignthickness=\skip194
 \ABNTEXsignskip=\skip256
-) (sty/configs.sty (D:\Programmi\MiKTeX\tex\latex\lm\lmodern.sty
+) (sty/configs.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -604,29 +610,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(D:\Programmi\MiKTeX\tex\latex\cmap\cmap.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 )
-(D:\Programmi\MiKTeX\tex\latex\base\fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(D:\Programmi\MiKTeX\tex\latex\base\t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )<<t1.cmap>>)
-(D:\Programmi\MiKTeX\tex\latex\base\inputenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
 
-(D:\Programmi\MiKTeX\tex\latex\base\utf8.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(D:\Programmi\MiKTeX\tex\latex\base\t1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -867,7 +873,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(D:\Programmi\MiKTeX\tex\latex\base\ot1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -908,7 +914,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(D:\Programmi\MiKTeX\tex\latex\base\omsenc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -934,34 +940,33 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(D:\Programmi\MiKTeX\tex\latex\tools\indentfirst.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\Programmi\MiKTeX\tex\latex\graphics\color.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(D:\Programmi\MiKTeX\tex\latex\graphics-cfg\color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(D:\Programmi\MiKTeX\tex\latex\graphics-def\pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count168
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
-(D:\Programmi\MiKTeX\tex\latex\graphics\dvipsnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(D:\Programmi\MiKTeX\tex\latex\xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(D:\Programmi\MiKTeX\tex\latex\graphics-cfg\color.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(D:\Programmi\MiKTeX\tex\latex\colortbl\colortbl.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks27
 \minrowclearance=\skip257
@@ -978,22 +983,22 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(D:\Programmi\MiKTeX\tex\latex\graphics\dvipsnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(D:\Programmi\MiKTeX\tex\latex\xcolor\svgnam.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-(D:\Programmi\MiKTeX\tex\latex\graphics\graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\Programmi\MiKTeX\tex\latex\graphics\graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(D:\Programmi\MiKTeX\tex\latex\graphics\trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(D:\Programmi\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -1001,24 +1006,24 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
 )
-(D:\Programmi\MiKTeX\tex\latex\amsmath\amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip258
 
 For additional information on amsmath, use the `?' option.
-(D:\Programmi\MiKTeX\tex\latex\amsmath\amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(D:\Programmi\MiKTeX\tex\latex\amsmath\amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
 \ex@=\dimen157
 ))
-(D:\Programmi\MiKTeX\tex\latex\amsmath\amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen158
 )
-(D:\Programmi\MiKTeX\tex\latex\amsmath\amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count170
@@ -1059,17 +1064,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(D:\Programmi\MiKTeX\tex\latex\amsfonts\amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(D:\Programmi\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(D:\Programmi\MiKTeX\tex\latex\base\textcomp.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -1084,12 +1089,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(D:\Programmi\MiKTeX\tex\latex\base\ts1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(D:\Programmi\MiKTeX\tex\latex\base\ts1enc.dfu
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1225,36 +1230,37 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(D:\Programmi\MiKTeX\tex\latex\microtype\microtype.sty
-Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks33
 \MT@count=\count182
-LaTeX Info: Redefining \textls on input line 789.
+LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen166
-LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
 \MT@listname@count=\count183
 
-(D:\Programmi\MiKTeX\tex\latex\microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 912.
-LaTeX Info: Redefining \lslig on input line 912.
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
 \MT@outer@space=\skip261
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(D:\Programmi\MiKTeX\tex\latex\microtype\microtype.cfg
-File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
-(D:\Programmi\MiKTeX\tex\latex\tools\xspace.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(D:\Programmi\MiKTeX\tex\latex\graphics\lscape.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(D:\Programmi\MiKTeX\tex\latex\lastpage\lastpage.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(D:\Programmi\MiKTeX\tex\latex\tools\multicol.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count184
 \mult@box=\box32
@@ -1303,14 +1309,14 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box57
 \mc@col@check@num=\count192
 )
-(D:\Programmi\MiKTeX\tex\latex\multirow\multirow.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip264
 \multirow@cntb=\count193
 \multirow@dima=\skip265
 \bigstrutjot=\dimen176
 )
-(D:\Programmi\MiKTeX\tex\latex\tools\longtable.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip266
 \LTright=\skip267
@@ -1328,7 +1334,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count269
 \LT@p@ftn=\toks34
 )
-(D:\Programmi\MiKTeX\tex\latex\float\float.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count270
 \float@exts=\toks35
@@ -1336,10 +1342,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks36
 \@floatcapt=\box63
 )
-(D:\Programmi\MiKTeX\tex\latex\wallpaper\wallpaper.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\wallpaper\wallpaper.sty"
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
 
-(D:\Programmi\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \wpXoffset=\skip270
@@ -1351,13 +1357,13 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 \tileX=\skip276
 \tileY=\skip277
 )
-(D:\Programmi\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 \AM@pagewidth=\dimen178
 \AM@pageheight=\dimen179
 
-(D:\Programmi\MiKTeX\tex\latex\pdfpages\pppdftex.def
-File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box64
 \AM@global@opts=\toks37
@@ -1365,36 +1371,36 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count271
 \AM@templatesizebox=\box65
 )
-(D:\Programmi\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
-(D:\Programmi\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
-(D:\Programmi\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks39
 \pgfutil@tempdima=\dimen180
 \pgfutil@tempdimb=\dimen181
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfutil-common-lists.tex))
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box66
-
-(D:\Programmi\MiKTeX\tex\latex\ms\everyshi.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(D:\Programmi\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-(D:\Programmi\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks40
 \pgfkeys@temptoks=\toks41
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
 \pgfkeys@tmptoks=\toks42
 ))
 \pgf@x=\dimen182
@@ -1414,33 +1420,33 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \t@pgf@toka=\toks43
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
-
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count276
 \pgfsyssoftpath@bigbuffer@items=\count277
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen190
 \pgfmath@count=\count278
 \pgfmath@box=\box67
@@ -1448,19 +1454,28 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks47
 \pgfmath@stack@operation=\toks48
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.t
-ex) (D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.c
-ode.tex))) (D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count279
 ))
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen191
 \pgf@picmaxx=\dimen192
@@ -1477,98 +1492,113 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen264
 \pgf@zy=\dimen265
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen266
 \pgf@path@lasty=\dimen267
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen268
 \pgf@shorten@start@additional=\dimen269
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
 \pgf@picture@serial@count=\count280
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen270
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen271
 \pgf@pt@y=\dimen272
 \pgf@pt@temp=\dimen273
-) (D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-) (D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen274
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen275
 \pgf@sys@shading@range@num=\count281
-)
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box71
 ))
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(D:\Programmi\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(D:\Programmi\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box72
-)
-(D:\Programmi\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(D:\Programmi\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen276
 \pgf@nodesepend=\dimen277
 )
-(D:\Programmi\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-(D:\Programmi\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
-(D:\Programmi\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(D:\Programmi\MiKTeX\tex\latex\pgf\math\pgfmath.sty
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex))
-(D:\Programmi\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen278
 \pgffor@skip=\dimen279
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
 ))
-(D:\Programmi\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count282
 \pgfplotmarksize=\dimen280
@@ -1587,7 +1617,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count284
 \tikznumberofcurrentchild=\count285
 \tikz@fig@count=\count286
-(D:\Programmi\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count287
 \pgfmatrixcurrentcolumn=\count288
@@ -1595,31 +1626,32 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count290
 
-(D:\Programmi\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryto
-paths.code.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (D:\Programmi\MiKTeX\tex\latex\adjustbox\adjustbox.sty
-Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(D:\Programmi\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(D:\Programmi\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-(D:\Programmi\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks51
 \XKV@tempa@toks=\toks52
 )
 \XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(D:\Programmi\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(D:\Programmi\MiKTeX\tex\latex\adjustbox\trimclip.sty
-Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(D:\Programmi\MiKTeX\tex\latex\collectbox\collectbox.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box77
 )
@@ -1629,44 +1661,39 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen290
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(D:\Programmi\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen291
 \adjbox@Height=\dimen292
 \adjbox@Depth=\dimen293
 \adjbox@Totalheight=\dimen294
-\adjbox@pwidth=\dimen295
-\adjbox@pheight=\dimen296
-\adjbox@pdepth=\dimen297
-\adjbox@ptotalheight=\dimen298
 
-(D:\Programmi\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count292
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
-(D:\Programmi\MiKTeX\tex\latex\ltxmisc\varwidth.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box78
 \sift@deathcycles=\count293
-\@vwid@loff=\dimen299
-\@vwid@roff=\dimen300
+\@vwid@loff=\dimen295
+\@vwid@roff=\dimen296
 ))
-(D:\Programmi\MiKTeX\tex\latex\hyperref\backref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 )
-("C:\Users\Aldo Strofaldi\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2c
-ite.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\abntex2\abntex2cite.sty"
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
-("C:\Users\Aldo Strofaldi\AppData\Roaming\MiKTeX\2.9\tex\latex\abntex2\abntex2a
-brev.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty")
 \minimumbiblabelwidth=\skip278
 \ABCIauxlen=\skip279
 \c@ABCIaux=\count294
 \c@ABCImax=\count295
- (D:\Programmi\MiKTeX\tex\latex\ltxmisc\relsize.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
 Package: relsize 2003/07/04 ver 3.1
 )
 \biblabelsep=\skip280
@@ -1674,7 +1701,7 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks53
 )
-(D:\Programmi\MiKTeX\tex\latex\lipsum\lipsum.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count296
 )
@@ -1713,81 +1740,81 @@ To prepare we will now reset all captioning macros and configurations to kernel
  the caption package interfaces in order to
  configure your captions.
 
-(D:\Programmi\MiKTeX\tex\latex\caption\caption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(D:\Programmi\MiKTeX\tex\latex\caption\caption3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen301
-\captionmargin@=\dimen302
-\captionwidth=\dimen303
-\caption@tempdima=\dimen304
-\caption@indent=\dimen305
-\caption@parindent=\dimen306
-\caption@hangindent=\dimen307
+\captionmargin=\dimen297
+\captionmargin@=\dimen298
+\captionwidth=\dimen299
+\caption@tempdima=\dimen300
+\caption@indent=\dimen301
+\caption@parindent=\dimen302
+\caption@hangindent=\dimen303
 )
 \c@ContinuedFloat=\count297
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
-(D:\Programmi\MiKTeX\tex\latex\caption\ltcaption.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 ))
-(D:\Programmi\MiKTeX\tex\latex\listings\listings.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count298
 \lst@gtempboxa=\box79
 \lst@token=\toks54
 \lst@length=\count299
-\lst@currlwidth=\dimen308
+\lst@currlwidth=\dimen304
 \lst@column=\count300
 \lst@pos=\count301
-\lst@lostspace=\dimen309
-\lst@width=\dimen310
+\lst@lostspace=\dimen305
+\lst@width=\dimen306
 \lst@newlines=\count302
 \lst@lineno=\count303
-\lst@maxwidth=\dimen311
+\lst@maxwidth=\dimen307
 
-(D:\Programmi\MiKTeX\tex\latex\listings\lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count304
 \lst@skipnumbers=\count305
 \lst@framebox=\box80
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang2.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang2.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang1.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang2.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
 File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstlang3.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-(D:\Programmi\MiKTeX\tex\latex\listings\lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ) (at.aux
 (textual/documentazione.aux))
@@ -1809,22 +1836,23 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
- (D:\Programmi\MiKTeX\tex\latex\base\ts1cmr.fd
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 60.
 
-(D:\Programmi\MiKTeX\tex\latex\lm\t1lmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box81
 Package hyperref Info: Link coloring OFF on input line 60.
 
-(D:\Programmi\MiKTeX\tex\latex\hyperref\nameref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(D:\Programmi\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count306
@@ -1839,29 +1867,29 @@ LaTeX Info: Redefining \it@ocap on input line 60.
 LaTeX Info: Redefining \it@ccap on input line 60.
 \myptabbox=\box82
 \myptabboxwidth=\skip281
-(D:\Programmi\MiKTeX\tex\context\base\supp-pdf.mkii
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
-\scratchdimen=\dimen312
+\scratchdimen=\dimen308
 \scratchbox=\box83
 \nofMPsegments=\count308
 \nofMParguments=\count309
 \everyMPshowfont=\toks55
 \MPscratchCnt=\count310
-\MPscratchDim=\dimen313
+\MPscratchDim=\dimen309
 \MPnumerator=\count311
 \makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks56
-) (D:\Programmi\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -1876,7 +1904,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(D:\Programmi\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1884,7 +1912,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 60.
 
-(D:\Programmi\MiKTeX\tex\latex\oberdiek\pdflscape.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 )
 ABD: EveryShipout initializing macros
@@ -1895,7 +1923,7 @@ Package caption Info: End \AtBeginDocument code.
  (pre-textual/capa.tex
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 13.
 
-(D:\Programmi\MiKTeX\tex\latex\lm\t1lmss.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1906,24 +1934,24 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 21.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 25.
 
-(D:\Programmi\MiKTeX\tex\latex\lm\ot1lmr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 25.
 
-(D:\Programmi\MiKTeX\tex\latex\lm\omllmm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 25.
 
 
-(D:\Programmi\MiKTeX\tex\latex\lm\omslmsy.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 25.
 
 
-(D:\Programmi\MiKTeX\tex\latex\lm\omxlmex.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1935,18 +1963,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 25.
 LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
-(D:\Programmi\MiKTeX\tex\latex\amsfonts\umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(D:\Programmi\MiKTeX\tex\latex\microtype\mt-msa.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
-(D:\Programmi\MiKTeX\tex\latex\amsfonts\umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(D:\Programmi\MiKTeX\tex\latex\microtype\mt-msb.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
@@ -1961,21 +1989,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-) <img/dieti_wall.png, id=11, 2296.58pt x 3307.35625pt>
+)
+<img/dieti_wall.png, id=11, 2296.58pt x 3307.35625pt>
 File: img/dieti_wall.png Graphic file (type png)
-
 <use img/dieti_wall.png>
-Package pdftex.def Info: img/dieti_wall.png used on input line 80.
+Package pdftex.def Info: img/dieti_wall.png  used on input line 80.
 (pdftex.def)             Requested size: 586.7941pt x 845.05531pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/dieti_wall.png>] [2
-] (at.toc)
-<img/DIETI_large.png, id=57, 988.69376pt x 65.24374pt>
+{C:/Users/Luca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/dieti_
+wall.png>] [2] (at.toc)
+<img/DIETI_large.png, id=58, 988.69376pt x 65.24374pt>
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 97.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 97.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 
@@ -1998,17 +2025,28 @@ l.97           \include{textual/documentazione}
 \openout2 = `textual/documentazione.aux'.
 
 
-(textual/documentazione.tex (textual/serverDocumentation.tex
-<img/dependencies_accesscontrol.png, id=93, 509.905pt x 283.0575pt>
-File: img/dependencies_accesscontrol.png Graphic file (type png)
+(textual/documentazione.tex (textual/introduzione.tex
+File: img/DIETI_large.png Graphic file (type png)
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 20.
+(pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
+Overfull \vbox (9.25586pt too high) has occurred while \output is active []
+
+
+[3
+
+
+]) (textual/serverDocumentation.tex
+<img/dependencies_accesscontrol.png, id=99, 509.905pt x 283.0575pt>
+File: img/dependencies_accesscontrol.png Graphic file (type png)
 <use img/dependencies_accesscontrol.png>
-Package pdftex.def Info: img/dependencies_accesscontrol.png used on input line 
-24.
+Package pdftex.def Info: img/dependencies_accesscontrol.png  used on input line
+ 24.
 (pdftex.def)             Requested size: 305.94536pt x 169.8358pt.
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 35.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 35.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
@@ -2016,25 +2054,23 @@ Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 35.
 
-[3
-
+[4
 
  <./img/dependencies_accesscontrol.png (PNG copy)>]
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 35.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 35.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[4] <img/dependencies_authentication.png, id=108, 2199.21625pt x 686.565pt>
+[5]
+<img/dependencies_authentication.png, id=114, 2199.21625pt x 686.565pt>
 File: img/dependencies_authentication.png Graphic file (type png)
-
 <use img/dependencies_authentication.png>
-Package pdftex.def Info: img/dependencies_authentication.png used on input line
- 40.
+Package pdftex.def Info: img/dependencies_authentication.png  used on input lin
+e 40.
 (pdftex.def)             Requested size: 659.76997pt x 205.97108pt.
 
 Overfull \hbox (5.39613pt too wide) in paragraph at lines 40--41
@@ -2043,32 +2079,7 @@ Overfull \hbox (5.39613pt too wide) in paragraph at lines 40--41
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 48.
-(pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
-
-Overfull \vbox (9.25586pt too high) has occurred while \output is active []
-
-
-[5
-
- <./img/dependencies_authentication.png (PNG copy)>]
-<img/dependencies_authorization.png, id=114, 1454.43375pt x 539.01375pt>
-File: img/dependencies_authorization.png Graphic file (type png)
-
-<use img/dependencies_authorization.png>
-Package pdftex.def Info: img/dependencies_authorization.png used on input line 
-59.
-(pdftex.def)             Requested size: 436.3335pt x 161.70537pt.
-
-<img/dependencies_bcrypt.png, id=116, 229.85875pt x 520.94624pt>
-File: img/dependencies_bcrypt.png Graphic file (type png)
-
-<use img/dependencies_bcrypt.png>
-Package pdftex.def Info: img/dependencies_bcrypt.png used on input line 71.
-(pdftex.def)             Requested size: 114.92908pt x 260.47249pt.
-File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 80.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
@@ -2076,88 +2087,68 @@ Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 [6
 
+ <./img/dependencies_authentication.png (PNG copy)>]
+<img/dependencies_authorization.png, id=121, 1454.43375pt x 539.01375pt>
+File: img/dependencies_authorization.png Graphic file (type png)
+<use img/dependencies_authorization.png>
+Package pdftex.def Info: img/dependencies_authorization.png  used on input line
+ 59.
+(pdftex.def)             Requested size: 436.3335pt x 161.70537pt.
+<img/dependencies_bcrypt.png, id=123, 229.85875pt x 520.94624pt>
+File: img/dependencies_bcrypt.png Graphic file (type png)
+<use img/dependencies_bcrypt.png>
+Package pdftex.def Info: img/dependencies_bcrypt.png  used on input line 71.
+(pdftex.def)             Requested size: 114.92908pt x 260.47249pt.
+File: img/DIETI_large.png Graphic file (type png)
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 80.
+(pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
+
+Overfull \vbox (9.25586pt too high) has occurred while \output is active []
+
+
+[7
+
  <./img/dependencies_authorization.png (PNG copy)> <./img/dependencies_bcrypt.p
-ng (PNG copy)>] <img/dependencies_dao.png, id=126, 1082.0425pt x 740.7675pt>
+ng (PNG copy)>]
+<img/dependencies_dao.png, id=132, 1082.0425pt x 740.7675pt>
 File: img/dependencies_dao.png Graphic file (type png)
-
 <use img/dependencies_dao.png>
-Package pdftex.def Info: img/dependencies_dao.png used on input line 84.
+Package pdftex.def Info: img/dependencies_dao.png  used on input line 84.
 (pdftex.def)             Requested size: 432.80933pt x 296.30174pt.
-
-<img/dependencies_entity.png, id=128, 1004.75375pt x 412.54124pt>
+<img/dependencies_entity.png, id=134, 1004.75375pt x 412.54124pt>
 File: img/dependencies_entity.png Graphic file (type png)
-
 <use img/dependencies_entity.png>
-Package pdftex.def Info: img/dependencies_entity.png used on input line 97.
+Package pdftex.def Info: img/dependencies_entity.png  used on input line 97.
 (pdftex.def)             Requested size: 401.89438pt x 165.01357pt.
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 106.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 106.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[7 <./img/dependencies_dao.png (PNG copy)> <./img/dependencies_entity.png (PNG 
+[8 <./img/dependencies_dao.png (PNG copy)> <./img/dependencies_entity.png (PNG 
 copy)>]
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 109.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 109.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[8] <img/dependencies_exception.png, id=141, 1810.765pt x 497.86pt>
+[9]
+<img/dependencies_exception.png, id=147, 1810.765pt x 497.86pt>
 File: img/dependencies_exception.png Graphic file (type png)
-
 <use img/dependencies_exception.png>
-Package pdftex.def Info: img/dependencies_exception.png used on input line 114.
-
+Package pdftex.def Info: img/dependencies_exception.png  used on input line 114
+.
 (pdftex.def)             Requested size: 543.23369pt x 149.35915pt.
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 122.
-(pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
-
-Overfull \vbox (9.25586pt too high) has occurred while \output is active []
-
-
-[9
-
- <./img/dependencies_exception.png (PNG copy)>]
-<img/dependencies_keystore.png, id=147, 134.5025pt x 105.39375pt>
-File: img/dependencies_keystore.png Graphic file (type png)
-
-<use img/dependencies_keystore.png>
-Package pdftex.def Info: img/dependencies_keystore.png used on input line 132.
-(pdftex.def)             Requested size: 67.25107pt x 52.69673pt.
-
-<img/dependencies_rsakeystore.png, id=149, 603.25375pt x 396.48125pt>
-File: img/dependencies_rsakeystore.png Graphic file (type png)
-
-<use img/dependencies_rsakeystore.png>
-Package pdftex.def Info: img/dependencies_rsakeystore.png used on input line 14
-6.
-(pdftex.def)             Requested size: 301.62613pt x 198.24013pt.
-
-<img/dependencies_registration.png, id=151, 824.07875pt x 441.65pt>
-File: img/dependencies_registration.png Graphic file (type png)
-
-<use img/dependencies_registration.png>
-Package pdftex.def Info: img/dependencies_registration.png used on input line 1
-60.
-(pdftex.def)             Requested size: 412.03836pt x 220.82445pt.
-
-<img/dependencies_twosteps.png, id=153, 672.5125pt x 677.53125pt>
-File: img/dependencies_twosteps.png Graphic file (type png)
-
-<use img/dependencies_twosteps.png>
-Package pdftex.def Info: img/dependencies_twosteps.png used on input line 174.
-(pdftex.def)             Requested size: 336.25542pt x 338.76479pt.
-File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 184.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 122.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
@@ -2165,105 +2156,127 @@ Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 [10
 
+ <./img/dependencies_exception.png (PNG copy)>]
+<img/dependencies_keystore.png, id=153, 134.5025pt x 105.39375pt>
+File: img/dependencies_keystore.png Graphic file (type png)
+<use img/dependencies_keystore.png>
+Package pdftex.def Info: img/dependencies_keystore.png  used on input line 132.
+
+(pdftex.def)             Requested size: 67.25107pt x 52.69673pt.
+<img/dependencies_rsakeystore.png, id=155, 603.25375pt x 396.48125pt>
+File: img/dependencies_rsakeystore.png Graphic file (type png)
+<use img/dependencies_rsakeystore.png>
+Package pdftex.def Info: img/dependencies_rsakeystore.png  used on input line 1
+46.
+(pdftex.def)             Requested size: 301.62613pt x 198.24013pt.
+<img/dependencies_registration.png, id=157, 824.07875pt x 441.65pt>
+File: img/dependencies_registration.png Graphic file (type png)
+<use img/dependencies_registration.png>
+Package pdftex.def Info: img/dependencies_registration.png  used on input line 
+160.
+(pdftex.def)             Requested size: 412.03836pt x 220.82445pt.
+<img/dependencies_twosteps.png, id=159, 672.5125pt x 677.53125pt>
+File: img/dependencies_twosteps.png Graphic file (type png)
+<use img/dependencies_twosteps.png>
+Package pdftex.def Info: img/dependencies_twosteps.png  used on input line 174.
+
+(pdftex.def)             Requested size: 336.25542pt x 338.76479pt.
+File: img/DIETI_large.png Graphic file (type png)
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 184.
+(pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
+
+Overfull \vbox (9.25586pt too high) has occurred while \output is active []
+
+
+[11
+
  <./img/dependencies_keystore.png (PNG copy)> <./img/dependencies_rsakeystore.p
 ng (PNG copy)>]
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 184.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 184.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[11 <./img/dependencies_registration.png (PNG copy)> <./img/dependencies_twoste
+[12 <./img/dependencies_registration.png (PNG copy)> <./img/dependencies_twoste
 ps.png (PNG copy)>]
-<img/dependencies_utility.png, id=167, 787.94376pt x 177.66376pt>
+<img/dependencies_utility.png, id=174, 787.94376pt x 177.66376pt>
 File: img/dependencies_utility.png Graphic file (type png)
-
 <use img/dependencies_utility.png>
-Package pdftex.def Info: img/dependencies_utility.png used on input line 188.
+Package pdftex.def Info: img/dependencies_utility.png  used on input line 188.
 (pdftex.def)             Requested size: 393.97092pt x 88.83165pt.
-
-<img/dependencies_utility_database.png, id=169, 595.22375pt x 493.845pt>
+<img/dependencies_utility_database.png, id=176, 595.22375pt x 493.845pt>
 File: img/dependencies_utility_database.png Graphic file (type png)
-
 <use img/dependencies_utility_database.png>
-Package pdftex.def Info: img/dependencies_utility_database.png used on input li
-ne 201.
+Package pdftex.def Info: img/dependencies_utility_database.png  used on input l
+ine 201.
 (pdftex.def)             Requested size: 297.61115pt x 246.92189pt.
-
-<img/dependencies_utility_mail.png, id=171, 395.4775pt x 328.22626pt>
+<img/dependencies_utility_mail.png, id=178, 395.4775pt x 328.22626pt>
 File: img/dependencies_utility_mail.png Graphic file (type png)
-
 <use img/dependencies_utility_mail.png>
-Package pdftex.def Info: img/dependencies_utility_mail.png used on input line 2
-14.
+Package pdftex.def Info: img/dependencies_utility_mail.png  used on input line 
+214.
 (pdftex.def)             Requested size: 197.73827pt x 164.11272pt.
-
-<img/dependencies_utility_network.png, id=173, 590.205pt x 249.93375pt>
+<img/dependencies_utility_network.png, id=180, 590.205pt x 249.93375pt>
 File: img/dependencies_utility_network.png Graphic file (type png)
-
 <use img/dependencies_utility_network.png>
-Package pdftex.def Info: img/dependencies_utility_network.png used on input lin
-e 227.
+Package pdftex.def Info: img/dependencies_utility_network.png  used on input li
+ne 227.
 (pdftex.def)             Requested size: 295.10178pt x 124.96657pt.
-
-<img/dependencies_webfilter.png, id=175, 658.46pt x 195.73125pt>
+<img/dependencies_webfilter.png, id=182, 658.46pt x 195.73125pt>
 File: img/dependencies_webfilter.png Graphic file (type png)
-
 <use img/dependencies_webfilter.png>
-Package pdftex.def Info: img/dependencies_webfilter.png used on input line 239.
-
+Package pdftex.def Info: img/dependencies_webfilter.png  used on input line 239
+.
 (pdftex.def)             Requested size: 329.2292pt x 97.86537pt.
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 242.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 242.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[12 <./img/dependencies_utility.png (PNG copy)> <./img/dependencies_utility_dat
+[13 <./img/dependencies_utility.png (PNG copy)> <./img/dependencies_utility_dat
 abase.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
 
-<img/dependencies_websocket.png, id=186, 772.8875pt x 195.73125pt>
+<img/dependencies_websocket.png, id=192, 772.8875pt x 195.73125pt>
 File: img/dependencies_websocket.png Graphic file (type png)
-
 <use img/dependencies_websocket.png>
-Package pdftex.def Info: img/dependencies_websocket.png used on input line 255.
-
+Package pdftex.def Info: img/dependencies_websocket.png  used on input line 255
+.
 (pdftex.def)             Requested size: 386.4428pt x 97.86537pt.
-
-<img/dependencies_xmlregistration.png, id=188, 534.99875pt x 525.965pt>
+<img/dependencies_xmlregistration.png, id=194, 534.99875pt x 525.965pt>
 File: img/dependencies_xmlregistration.png Graphic file (type png)
-
 <use img/dependencies_xmlregistration.png>
-Package pdftex.def Info: img/dependencies_xmlregistration.png used on input lin
-e 266.
+Package pdftex.def Info: img/dependencies_xmlregistration.png  used on input li
+ne 266.
 (pdftex.def)             Requested size: 267.49872pt x 262.98184pt.
 File: img/DIETI_large.png Graphic file (type png)
- <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 269.
+<use img/DIETI_large.png>
+Package pdftex.def Info: img/DIETI_large.png  used on input line 269.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[13 <./img/dependencies_utility_mail.png (PNG copy)> <./img/dependencies_utilit
+[14 <./img/dependencies_utility_mail.png (PNG copy)> <./img/dependencies_utilit
 y_network.png (PNG copy)> <./img/dependencies_webfilter.png (PNG copy)>])
 (textual/sequenceDiagrams.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<img/sequence_serverint.png, id=195, 1840.62656pt x 1308.38812pt>
+<img/sequence_serverint.png, id=201, 1840.62656pt x 1308.38812pt>
 File: img/sequence_serverint.png Graphic file (type png)
-
 <use img/sequence_serverint.png>
-Package pdftex.def Info: img/sequence_serverint.png used on input line 19.
+Package pdftex.def Info: img/sequence_serverint.png  used on input line 19.
 (pdftex.def)             Requested size: 1104.38448pt x 785.03894pt.
 
 Overfull \hbox (649.38448pt too wide) in paragraph at lines 19--20
@@ -2272,26 +2285,25 @@ Overfull \hbox (649.38448pt too wide) in paragraph at lines 19--20
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 23.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 23.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[14 <./img/dependencies_websocket.png (PNG copy)> <./img/dependencies_xmlregist
+[15 <./img/dependencies_websocket.png (PNG copy)> <./img/dependencies_xmlregist
 ration.png (PNG copy)>]
 Overfull \vbox (151.6651pt too high) has occurred while \output is active []
 
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 23.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 23.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[15 <./img/sequence_serverint.png>]
+[16 <./img/sequence_serverint.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
 
  []
@@ -2301,11 +2313,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-<img/sequence_offer.png, id=207, 2122.17844pt x 1543.26563pt>
+<img/sequence_offer.png, id=213, 2122.17844pt x 1543.26563pt>
 File: img/sequence_offer.png Graphic file (type png)
-
 <use img/sequence_offer.png>
-Package pdftex.def Info: img/sequence_offer.png used on input line 45.
+Package pdftex.def Info: img/sequence_offer.png  used on input line 45.
 (pdftex.def)             Requested size: 1273.31691pt x 925.96654pt.
 
 Overfull \hbox (818.31691pt too wide) in paragraph at lines 45--46
@@ -2314,25 +2325,24 @@ Overfull \hbox (818.31691pt too wide) in paragraph at lines 45--46
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 49.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 49.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[16]
+[17]
 Overfull \vbox (292.5927pt too high) has occurred while \output is active []
 
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 49.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 49.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[17 <./img/sequence_offer.png>]
+[18 <./img/sequence_offer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
@@ -2342,11 +2352,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<img/sequence_answer.png, id=220, 2310.38156pt x 1515.41156pt>
+<img/sequence_answer.png, id=227, 2310.38156pt x 1515.41156pt>
 File: img/sequence_answer.png Graphic file (type png)
-
 <use img/sequence_answer.png>
-Package pdftex.def Info: img/sequence_answer.png used on input line 70.
+Package pdftex.def Info: img/sequence_answer.png  used on input line 70.
 (pdftex.def)             Requested size: 1386.23965pt x 909.25397pt.
 
 Overfull \hbox (931.23965pt too wide) in paragraph at lines 70--71
@@ -2355,25 +2364,24 @@ Overfull \hbox (931.23965pt too wide) in paragraph at lines 70--71
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 74.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[18]
+[19]
 Overfull \vbox (275.88013pt too high) has occurred while \output is active []
 
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 74.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[19 <./img/sequence_answer.png>]
+[20 <./img/sequence_answer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
@@ -2383,11 +2391,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<img/sequence_candidates.png, id=232, 1202.24156pt x 850.67813pt>
+<img/sequence_candidates.png, id=238, 1202.24156pt x 850.67813pt>
 File: img/sequence_candidates.png Graphic file (type png)
-
 <use img/sequence_candidates.png>
-Package pdftex.def Info: img/sequence_candidates.png used on input line 103.
+Package pdftex.def Info: img/sequence_candidates.png  used on input line 103.
 (pdftex.def)             Requested size: 721.35051pt x 510.41081pt.
 
 Overfull \hbox (266.35051pt too wide) in paragraph at lines 103--104
@@ -2396,22 +2403,21 @@ Overfull \hbox (266.35051pt too wide) in paragraph at lines 103--104
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 107.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 107.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
-<img/sequence_timeout.png, id=237, 1307.63531pt x 504.38437pt>
+<img/sequence_timeout.png, id=243, 1307.63531pt x 504.38437pt>
 File: img/sequence_timeout.png Graphic file (type png)
-
 <use img/sequence_timeout.png>
-Package pdftex.def Info: img/sequence_timeout.png used on input line 119.
+Package pdftex.def Info: img/sequence_timeout.png  used on input line 119.
 (pdftex.def)             Requested size: 784.58727pt x 302.63295pt.
 
 Overfull \hbox (329.58727pt too wide) in paragraph at lines 119--120
@@ -2420,22 +2426,21 @@ Overfull \hbox (329.58727pt too wide) in paragraph at lines 119--120
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 122.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 122.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[21 <./img/sequence_candidates.png>]
+[22 <./img/sequence_candidates.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-<img/sequence_contactlist.png, id=244, 1660.70438pt x 1657.69313pt>
+<img/sequence_contactlist.png, id=250, 1660.70438pt x 1657.69313pt>
 File: img/sequence_contactlist.png Graphic file (type png)
-
 <use img/sequence_contactlist.png>
-Package pdftex.def Info: img/sequence_contactlist.png used on input line 133.
+Package pdftex.def Info: img/sequence_contactlist.png  used on input line 133.
 (pdftex.def)             Requested size: 996.43033pt x 994.62357pt.
 
 Overfull \hbox (541.43033pt too wide) in paragraph at lines 133--134
@@ -2444,25 +2449,24 @@ Overfull \hbox (541.43033pt too wide) in paragraph at lines 133--134
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 137.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[22 <./img/sequence_timeout.png>]
+[23 <./img/sequence_timeout.png>]
 Overfull \vbox (361.24973pt too high) has occurred while \output is active []
 
 File: img/DIETI_large.png Graphic file (type png)
-
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 137.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[23 <./img/sequence_contactlist.png>]
+[24 <./img/sequence_contactlist.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 146--150
 
  []
@@ -2474,21 +2478,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--97
 
 File: img/DIETI_large.png Graphic file (type png)
 <use img/DIETI_large.png>
-Package pdftex.def Info: img/DIETI_large.png used on input line 97.
+Package pdftex.def Info: img/DIETI_large.png  used on input line 97.
 (pdftex.def)             Requested size: 284.52756pt x 18.77583pt.
 
 Overfull \vbox (9.25586pt too high) has occurred while \output is active []
 
 
-[24]
+[25]
 
 Class memoir Warning: The material used in the headers is too large
 (22.85587pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 106.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 106.
 
 
 AED: lastpage setting LastPage
@@ -2504,33 +2505,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
 (at.aux (textual/documentazione.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 106.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 30180 strings out of 493323
- 513165 string characters out of 3142511
- 812734 words of memory out of 3000000
- 32923 multiletter control sequences out of 15000+200000
- 69126 words of font info for 73 fonts, out of 3000000 for 9000
+ 30032 strings out of 493305
+ 514704 string characters out of 3138877
+ 810152 words of memory out of 3000000
+ 32760 multiletter control sequences out of 15000+200000
+ 69624 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,122p,932b,801s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programmi/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<D:/Programmi/MiKTeX/fonts/
-type1/public/lm/lmbx7.pfb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lmr10.pfb>
-<D:/Programmi/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Programmi/MiKTeX/fonts/
-type1/public/lm/lmr9.pfb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lmri7.pfb><
-D:/Programmi/MiKTeX/fonts/type1/public/lm/lmss10.pfb><D:/Programmi/MiKTeX/fonts
-/type1/public/lm/lmss12.pfb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lmss17.p
-fb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lmss8.pfb><D:/Programmi/MiKTeX/fo
-nts/type1/public/lm/lmssbx10.pfb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lms
-so10.pfb><D:/Programmi/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><D:/Programmi/M
-iKTeX/fonts/type1/public/lm/lmsso8.pfb>
-Output written on at.pdf (25 pages, 2255083 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmbx7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+sso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb>
+Output written on at.pdf (26 pages, 2262360 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 22923 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 22931 words of extra memory for PDF output out of 24883 (max. 10000000)
 
