@@ -1,6 +1,6 @@
 # Secure Messaging
 
-L'obiettivo del progetto è lo sviluppo di una applicazione con interfaccia web-based di messaggistica point-to-point mediante ausilio di WebRTC, con funzioni di autenticazione gestite su un server Apache Tomcat attraverso servlets Java SSL, con meccanismo a due fattori per il login di utenti da dispositivi non noti, gestione di policy di autorizzazione role-based tra gli utenti, con la persistenza delle informazioni gestita attraverso un database-server MySQL, anch'esso configurato con SSL.
+L'obiettivo del progetto è lo sviluppo di una applicazione con interfaccia web-based di messaggistica point-to-point mediante ausilio di WebRTC, con funzioni di autenticazione gestite su un server Apache Tomcat attraverso servlets Java SSL, meccanismo a due fattori per il login di utenti da dispositivi non noti, gestione di policy di autorizzazione role-based tra gli utenti (mediante XACML) e persistenza delle informazioni gestita attraverso un database-server MySQL, anch'esso configurato con SSL.
 
 Le tecnologie/librerie utilizzate sono elencate di seguito:
 
@@ -38,7 +38,7 @@ Per essere in grado di eseguire l'applicativo, si ha bisogno di effettuare e con
 * Database Server MySQL;
 * NodeJS;
 
-La guida completa per la configurazione dell'applicativo, corredata di guide ed esempi, si trova nella cartella Configurazione.
+La guida completa per la configurazione dell'applicativo, corredata di guide ed esempi, si trova nella cartella */Configurazioner*.
 
 ## Esecuzione Applicazione
 
@@ -50,6 +50,8 @@ https://localhost:8443/CertificateServer/pages/login.html
 
 Si consiglia l'utilizzo di browser Google Chrome. 
 Si sono riscontrati problemi con Mozilla Firefox e Apple Safari per il supporto WebRTC.
+
+**Attenzione**: assicurarsi di essere connessi a Internet per essere sicuri del corretto comportamento dell'applicazione.
 
 E' necessario, al momento della prima apertura della applicazione contrassegnare il certificato del server Tomcat come *trusted*. 
 Il browser, con ogni probabilità, indicherà che non è sicuro in quanto self-signed.
