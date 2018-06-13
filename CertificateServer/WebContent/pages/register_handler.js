@@ -2,7 +2,7 @@ var login_page = "./login.html";
 var registration_servlet = "https://localhost:8443/CertificateServer/register/";
 var error_string = "";
 var re_mail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+var re_pwd = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
 (function ($) {
     "use strict";
 
@@ -131,11 +131,10 @@ var re_mail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@(
                 return false;
 		*/case 'email':
             return re_mail.test($(input).val());
-		/*case 'password':
-            if($(input).val().match(re_pas) == null)
-                return false;
-		*/case 'telephone':
-        if(isNaN($(input).val()) == true)
+		case 'pass':
+            return re_pwd.test($(input).val());
+		case 'telephone':
+        if(isNaN($(input).val()) == true || $(input).val() > 99999 || $(input).val() < 0)
                 return false;
          
 		default: 

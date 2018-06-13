@@ -8,18 +8,23 @@
 
 \section{Sequence Diagrams}
 
-In questa sezione vengono mostrati e commentati i sequence diagram realizzati per le funzionalità più significative dell'applicazione realizzata.
+In questa sezione vengono mostrati e commentati i sequence diagrams realizzati per le funzionalità più significative dell'applicazione realizzata.
 
 \subsection{Server Interaction (Login)}
 
-Di seguito viene riportato il sequence diagram che descrive l'interazione che avviene tra il server NodeJS e il server Tomcat all'atto del login.\\
+In figura \ref{gfx:serverinteractionlogin} viene riportato il sequence diagram che descrive l'interazione che avviene tra il server NodeJS e il server Tomcat all'atto del login.
 
-\begin{figure}[H]
+\begin{landscape}
+\begin{center}
+
+\begin{figure}[!htbp]
 	\centering
-	\includegraphics[scale = .6]{img/sequence_serverint.png}
+	\includegraphics[scale = .31]{img/sequence_serverint.png}
 	\caption{Server Interaction (Login)}
 	\label{gfx:serverinteractionlogin}
 \end{figure}
+\end{center}	
+\end{landscape}%
 
 Quando un nuovo utente effettua correttamente il login presso la pagina login.html, accadono due cose:
 \begin{itemize}
@@ -38,15 +43,18 @@ Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.
 
 \subsubsection{Offer Interaction}
 
-Il sequence diagram mostra l'interazione che si viene a realizzare ogniqualvolta un utente decide di inviare una \textit{offer} verso un altro utente, con l'intenzione di configurare e avviare una chat.\\
+In figura \ref{gfx:offerinteraction} si mostra l'interazione che si viene a realizzare ogniqualvolta un utente decide di inviare una \textit{offer} verso un altro utente, con l'intenzione di configurare e avviare una chat.
 
-\begin{figure}[H]
+\begin{landscape}
+\begin{center}
+\begin{figure}[!htbp]
 	\centering
-	\includegraphics[scale = .6]{img/sequence_offer.png}
+	\includegraphics[scale = .25]{img/sequence_offer.png}
 	\caption{Offer Interaction}
 	\label{gfx:offerinteraction}
 \end{figure}
-
+\end{center}	
+\end{landscape}%
 Se supponiamo di avere un utente A che invia un messaggio offer destinato all'utente B, allora il server nodeJS, alla ricezione di tale messaggio, si occuperà di:
 \begin{itemize}
 \item verificare che l'utente A sia loggato e connesso (ovvero: presente tra loggedUsers e connectedUsers);
@@ -63,15 +71,18 @@ Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.
 
 \subsubsection{Answer Interaction}
 
-Di seguito si riporta il sequence diagram che mostra l'interazione tra utente A e utente B nel momento in cui vi è l'invio di una \textit{answer}: supponendo che l'utente A voglia chiamare l'utente B, e che l'invio dell'offer sia avvenuto correttamente verso l'utente B, andremo a descrivere la comunicazione che avviene nel momento in cui B decide di inviare una answer ad A, tramite il signaling server.\\
+In figura \ref{gfx:answerinteraction} si riporta il sequence diagram che mostra l'interazione tra utente A e utente B nel momento in cui vi è l'invio di una \textit{answer}: supponendo che l'utente A voglia chiamare l'utente B, e che l'invio dell'offer sia avvenuto correttamente verso l'utente B, andremo a descrivere la comunicazione che avviene nel momento in cui B decide di inviare una answer ad A, tramite il signaling server.
 
-\begin{figure}[H]
+\begin{landscape}
+\begin{center}
+\begin{figure}[!htbp]
 	\centering
-	\includegraphics[scale = .6]{img/sequence_answer.png}
+	\includegraphics[scale = .26]{img/sequence_answer.png}
 	\caption{Answer Interaction}
 	\label{gfx:answerinteraction}
 \end{figure}
-
+\end{center}	
+\end{landscape}%
 Si nota che, in tal caso, quando l'utente B riceve l'offer da parte dell'utente A, si possono verificare due situazioni:
 \begin{itemize}
 \item l'utente B \textit{rifiuta} di parlare con l'utente A;
@@ -96,11 +107,11 @@ Per ulteriori dettagli si rimanda alla documentazione interna del server nodeJS.
 
 \subsubsection{ICE Candidates Interaction}
 
-Il seguente sequence diagram illustra il meccanismo con cui avviene la comunicazione e lo scambio degli ICE candidates tra l'utente A e l'utente B.\\
+In figura \ref{gfx:candidatesinteraction}, il sequence diagram illustra il meccanismo con cui avviene la comunicazione e lo scambio degli ICE candidates tra l'utente A e l'utente B.
 
-\begin{figure}[H]
+\begin{figure}[!htbp]
 	\centering
-	\includegraphics[scale = .6]{img/sequence_candidates.png}
+	\includegraphics[scale = .37]{img/sequence_candidates.png}
 	\caption{Candidates Interaction}
 	\label{gfx:candidatesinteraction}
 \end{figure}
@@ -114,9 +125,9 @@ Ulteriori dettagli possono essere ottenuti osservando la documentazione interna 
 
 Il sequence diagram riportato di seguito mostra il meccanismo con cui è possibile rimuovere automaticamente un utente inattivo se quest'ultimo non effettua operazioni per più di un certo periodo di tempo.
 
-\begin{figure}[H]
+\begin{figure}[!htpb]
 	\centering
-	\includegraphics[scale = .6]{img/sequence_timeout.png}
+	\includegraphics[scale = .35]{img/sequence_timeout.png}
 	\caption{Timeout Inactivity Interaction}
 	\label{gfx:timeoutinteraction}
 \end{figure}
@@ -126,15 +137,14 @@ Quando la callback associata al timeout viene invocata, andremo ad analizzare tu
 
 \subsubsection{Contact List Filter}
 
-Il seguente diagramma mostra il comportamento del filtro ContactListFilter, utilizzato per l'accesso alle contact-lists che vengono prelevate dagli utenti ogni volta che si connettono alla chat, per poter selezionare (in base a policy ben precise) con quale utente comunicare.
+Il diagramma in figura \ref{gfx:contactlistfilter} mostra il comportamento del filtro ContactListFilter, utilizzato per l'accesso alle contact-lists che vengono prelevate dagli utenti ogni volta che si connettono alla chat, per poter selezionare (in base a policy ben precise) con quale utente comunicare.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = .6]{img/sequence_contactlist.png}
+\begin{figure}[!htbp]
+		\centering
+	\includegraphics[scale = .26]{img/sequence_contactlist.png}
 	\caption{Contact List Filter}
 	\label{gfx:contactlistfilter}
 \end{figure}
-
 Il filtro viene attivato ogniqualvolta viene richiesto l'accesso al contenuto della cartella contact-lists, in accordo con quanto dichiarato nel file web.xml.\\
 Le richieste contengono tipicamente i seguenti parametri (POST):
 \begin{itemize}
