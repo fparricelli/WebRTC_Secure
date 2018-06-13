@@ -51,7 +51,7 @@ https://localhost:8443/CertificateServer/pages/login.html
 Si consiglia l'utilizzo di browser Google Chrome. 
 Si sono riscontrati problemi con Mozilla Firefox e Apple Safari per il supporto WebRTC.
 
-**Attenzione**: assicurarsi di essere connessi a Internet per essere sicuri del corretto comportamento dell'applicazione.
+**Attenzione**: assicurarsi di essere connessi a Internet per essere sicuri del corretto funzionamento dell'applicazione.
 
 E' necessario, al momento della prima apertura della applicazione contrassegnare il certificato del server Tomcat come *trusted*. 
 Il browser, con ogni probabilità, indicherà che non è sicuro in quanto self-signed.
