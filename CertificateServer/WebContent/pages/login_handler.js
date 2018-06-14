@@ -60,7 +60,6 @@ var two_factors_page = "./two_factors.html";
 					setStorage(data,
 							username_var);
 					goToPage(contact_page);
-					//goToPage(contact_page, true);
 				},
 				error : function(request,
 						textStatus,
@@ -77,7 +76,6 @@ var two_factors_page = "./two_factors.html";
 								request,
 								username_var);
 						goToPage(two_factors_page);
-						//goToPage(two_factors_page, false);
 
 					} else if (request.status == 500) {
 						$.dialog({
@@ -131,13 +129,6 @@ var two_factors_page = "./two_factors.html";
     function validate (input) {
         if($(input).val().trim() == '')
             return false;
-	/*	switch($(input).attr('name')){
-		case 'username':
-            if($(input).val().trim().match(/^[a-zA-Z][a-zA-Z\d-_\.]+$/) == null)
-                return false;
-		default: 
-			break;
-        }*/
     }
 
     function showValidate(input) {
@@ -155,108 +146,6 @@ var two_factors_page = "./two_factors.html";
     
 
 })(jQuery);
-
-/*$(document)
-		.ready(
-				function() {
-					console.log('Pronto');
-					resetStorage();
-					$("#login_form")
-							.submit(
-									function(e) {
-										e.preventDefault();
-										document.getElementById("login_failed").innerHTML = "";
-										var username_var = $("#username").val();
-										var password_var = $("#password").val();
-										// var dati = new FormData();
-										// dati.append('username',username);
-										// dati.append('password',password);
-										//console.log(username_var);
-										console.log('Submit inserito');
-										
-										 * var request = new XMLHttpRequest();
-										 * console.log('Creo ' +
-										 * request.readyState);
-										 * request.open('POST','https://localhost:8443/CertificateServer/authenticate/',true);
-										 * request.setRequestHeader('Content-Type','application/x-www-form-urlencoded'); //
-										 * request.setRequestHeader('Content-Length',
-										 * dati.length); //
-										 * request.setRequestHeader('Connection',
-										 * 'close'); console.log('Apro ' +
-										 * request.readyState);
-										 * request.send('username='+username+'&password='+password);
-										 * console.log('Mando ' +
-										 * request.readyState);
-										 * request.onreadystatechange = function () {
-										 * console.log(request.status);
-										 * if(request.readyState==4) {
-										 * console.log('Risposta ' +
-										 * request.status); } }
-										 
-										$
-												.ajax({
-													type : "POST",
-													url : "https://localhost:8443/CertificateServer/authenticate/",
-													dataType : "json",
-													data : {
-														username : username_var,
-														password : password_var
-													},
-													success : function(data) {
-														// document.getElementById("login_failed").innerHTML
-														// = "Successful login";
-													    //console.log(data);
-														// console.log(data);
-														// console.log(token);
-														// console.log(name);
-														// console.log(surname);
-														// console.log(role);
-														// console.log(roleNumber);
-														// console.log(telephone);
-														setStorage(data,
-																username_var);
-														// console.log(sessionStorage.getItem("token"));
-														goToPage(contact_page);
-													},
-													error : function(request,
-															textStatus,
-															errorThrown) {
-														console
-																.log('Sbagliato');
-														console.log(textStatus);
-														console
-																.log(request.status);
-														if (request.status == 307) {
-															document
-																	.getElementById("login_failed").innerHTML = "Confirmation mail Sent. Activate your account using the mail we sent";
-															setTemporaryStorage(
-																	request,
-																	username_var);
-															goToPage(two_factors_page);
-
-														} else if (request.status == 500) {
-															document
-																	.getElementById("login_failed").innerHTML = "Server errror";
-														} else if (request.status == 403) {
-															document
-																	.getElementById("login_failed").innerHTML = "Account or IP locked."
-														}
-
-														else if (request.status == 401) {
-															document
-																	.getElementById("login_failed").innerHTML = "Wrong credentials"
-														}
-
-													}
-
-												})
-									});
-					$("#register").click(function() {
-						console.log('Click su register');
-						window.location.href = register_page;
-					});
-				});
-*/
 				
 /*
  * UTILITY FUNCTIONS
@@ -282,18 +171,6 @@ function goToPage(page) {
 	
 }
 
-/*function goToPage(page, red){
-	
-	var token = sessionStorage.getItem("token");
-	
-	if(red){
-		window.location.href = page+"?param="+token;
-		//redirectWithToken(page);
-	}else{
-		window.location.href = page;
-	}
-}*/
-
 function setTemporaryStorage(data, username) {
 	sessionStorage.setItem("twoFactorsUsername", username);
 }
@@ -306,36 +183,3 @@ function resetStorage() {
 	sessionStorage.setItem("roleNumber", "");
 	sessionStorage.setItem("telephone", "");
 }
-
-/*function redirectWithToken(page){
-
-	$.ajax({
-		type : "POST",
-		url : page,
-		dataType : "json",
-		data : {
-			param: sessionStorage.getItem("token")
-		},
-    
-		success : function(response, textStatus, xhr) {
-			console.log(response);
-			console.log(response.redirect_url);
-			alert("Ricevuto redirect (success)!");
-			window.location.href = response.redirect_url;
-		},
-    
-		error : function(request, textStatus, errorThrown) {
-			if(request.status == 307){
-				console.log(response);
-				console.log(response.redirect_url);
-				alert("Ricevuto redirect (error)!");
-				window.location.href = response.redirect_url;
-			}else{
-				console.log("Redirect Error!");
-			}		
-		}
-     
-});
-
-}
-*/

@@ -126,10 +126,7 @@ var re_pwd = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
     	 if($(input).val().trim() == '')
              return false;
 		switch($(input).attr('name')){
-	/*	case 'username':
-            if($(input).val().trim().match(/^[a-zA-Z][a-zA-Z\d-_\.]+$/) == null)
-                return false;
-		*/case 'email':
+		case 'email':
             return re_mail.test($(input).val());
 		case 'pass':
             return re_pwd.test($(input).val());

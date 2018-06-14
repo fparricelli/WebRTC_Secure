@@ -140,51 +140,7 @@ var code = "";
 
 })(jQuery);
 
-/*
-$(document).ready(function() {
-	temporary_username = sessionStorage.getItem("twoFactorsUsername");
-	$("#two_factors_form")
-	.submit(
-			function(e) {
-				e.preventDefault();
-				code = $("#code").val();
-				console.log(code);
-				$.ajax({
-					type : "POST",
-					url: two_factors_servlet,
-					data : {
-						username : temporary_username,
-						code : code
-					},
-					success: function(data)
-					{
-						alert("Codice corretto. IP abilitato all'accesso");
-						goToPage(login_page);
-					},
-					error : function(data)
-					{
-					if(data.status == 401)
-						{
-						alert("Codice non corretto o scaduto");
-						}
-					else if (data.status == 500)
-						{
-						alert("Errore del server. Contattare l'amministratore.")
-						}
-					else if (data.status == 404)
-						{
-						alert("Nessun codice trovato. Reindirizzo alla pagina di login");
-						goToPage(login_page);
-						}
-					}
-				}
-				)
-				
-			}
-			)
-}
-);
-*/
+
 function goToPage(page) {
 	window.location.href = page;
 }
