@@ -15,6 +15,9 @@ Per essere in grado di eseguire l'applicativo, si ha bisogno di configurare appl
 	
 1) CONFIGURAZIONE MySQL + SSL
 I dettagli della configurazione MySQL sono descritti in maniera dettagliata (comprensivi di demo per testare la configurazione) nella cartella Configurazione/MySQL.
+NOTA: una volta completata la configurazione MySQL, è possibile creare lo schema necessario all'esecuzione dell'applicazione usando il file database.sql presente nella cartella Configurazione/MySQL.
+
+
 
 2) CONFIGURAZIONE Tomcat
 Per configurare Tomcat, è necessario esclusivamente attivare la configurazione SSL, modificando il file server.xml.
