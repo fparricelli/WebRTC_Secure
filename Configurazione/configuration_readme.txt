@@ -8,12 +8,16 @@ Per essere in grado di eseguire l'applicativo, si ha bisogno di configurare appl
     Database Server MySQL;
     NodeJS (utilizzata : LTS)
 	
-	Si consiglia l'utilizzo di browser Google Chrome o Mozilla Firefox. 
-	Si sono riscontrati problemi con Apple Safari per il supporto WebRTC.
+	Si consiglia l'utilizzo di browser Google Chrome.
+	Si sono riscontrati problemi con Apple Safari/Mozilla Firefox per il supporto WebRTC.
+	Assicurarsi inoltre di essere connessi ad Internet prima di avviare l'applicazione.
 	
 	
 1) CONFIGURAZIONE MySQL + SSL
 I dettagli della configurazione MySQL sono descritti in maniera dettagliata (comprensivi di demo per testare la configurazione) nella cartella Configurazione/MySQL.
+NOTA: una volta completata la configurazione MySQL, è possibile creare lo schema necessario all'esecuzione dell'applicazione usando il file database.sql presente nella cartella Configurazione/MySQL.
+
+
 
 2) CONFIGURAZIONE Tomcat
 Per configurare Tomcat, è necessario esclusivamente attivare la configurazione SSL, modificando il file server.xml.
